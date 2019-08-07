@@ -37,6 +37,7 @@ total_values <- round((par_iter - par_warmup) * par_chains / par_thin)
 cat('The FOI distibution result will have approximate', total_values, 'values\n')
 
 # # ===== Visualize 3 countries in the dataset: LAO, CHN, PHL (optional) =====
+# library(ggplot)
 # data_short <- data[which(data$Endemic_region %in% c('LAO', 'CHN', 'PHL')), ]
 # data_short$Endemic_region[which(data_short$Endemic_region == 'PHL')] <- 'PHILIPPINES'
 # data_short$Endemic_region[which(data_short$Endemic_region == 'CHN')] <- 'CHINA'

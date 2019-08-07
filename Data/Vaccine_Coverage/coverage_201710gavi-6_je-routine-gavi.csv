@@ -1,0 +1,1937 @@
+scenario,set_name,vaccine,gavi_support,activity_type,country_code,country,year,age_first,age_last,age_range_verbatim,target,coverage
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,1980,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,1981,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,1982,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,1983,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,1984,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,1985,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,1986,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,1987,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,1988,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,1989,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,1990,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,1991,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,1992,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,1993,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,1994,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,1995,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,1996,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,1997,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,1998,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,1999,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2000,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2001,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2002,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2003,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2004,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2005,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2006,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2007,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2008,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2009,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2010,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2011,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2012,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2013,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2014,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2015,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2016,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2017,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2018,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2019,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2020,0,0,<NA>,<NA>,0.406247055426989
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2021,0,0,<NA>,<NA>,0.797985287445872
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2022,0,0,<NA>,<NA>,0.870529404486405
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2023,0,0,<NA>,<NA>,0.870529404486405
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2024,0,0,<NA>,<NA>,0.870529404486405
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2025,0,0,<NA>,<NA>,0.870529404486405
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2026,0,0,<NA>,<NA>,0.870529404486405
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2027,0,0,<NA>,<NA>,0.870529404486405
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2028,0,0,<NA>,<NA>,0.870529404486406
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2029,0,0,<NA>,<NA>,0.870529404486406
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2030,0,0,<NA>,<NA>,0.870529404486406
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2031,0,0,<NA>,<NA>,0.880529404486406
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2032,0,0,<NA>,<NA>,0.890529404486406
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2033,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2034,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2035,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2036,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2037,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2038,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2039,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2040,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2041,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2042,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2043,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2044,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2045,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2046,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2047,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2048,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2049,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2050,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2051,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2052,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2053,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2054,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2055,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2056,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2057,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2058,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2059,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2060,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2061,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2062,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2063,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2064,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2065,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2066,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2067,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2068,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2069,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2070,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2071,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2072,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2073,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2074,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2075,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2076,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2077,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2078,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2079,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2080,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2081,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2082,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2083,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2084,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2085,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2086,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2087,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2088,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2089,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2090,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2091,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2092,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2093,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2094,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2095,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2096,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2097,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2098,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2099,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BGD,Bangladesh,2100,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,1980,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,1981,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,1982,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,1983,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,1984,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,1985,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,1986,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,1987,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,1988,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,1989,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,1990,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,1991,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,1992,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,1993,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,1994,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,1995,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,1996,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,1997,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,1998,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,1999,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2000,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2001,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2002,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2003,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2004,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2005,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2006,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2007,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2008,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2009,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2010,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2011,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2012,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2013,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2014,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2015,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2016,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2017,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2018,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2019,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2020,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2021,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2022,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2023,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2024,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2025,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2026,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2027,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2028,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2029,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2030,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2031,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2032,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2033,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2034,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2035,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2036,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2037,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2038,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2039,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2040,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2041,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2042,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2043,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2044,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2045,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2046,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2047,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2048,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2049,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2050,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2051,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2052,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2053,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2054,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2055,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2056,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2057,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2058,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2059,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2060,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2061,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2062,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2063,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2064,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2065,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2066,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2067,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2068,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2069,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2070,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2071,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2072,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2073,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2074,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2075,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2076,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2077,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2078,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2079,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2080,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2081,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2082,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2083,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2084,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2085,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2086,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2087,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2088,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2089,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2090,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2091,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2092,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2093,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2094,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2095,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2096,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2097,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2098,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2099,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,BTN,Bhutan,2100,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,1980,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,1981,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,1982,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,1983,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,1984,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,1985,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,1986,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,1987,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,1988,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,1989,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,1990,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,1991,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,1992,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,1993,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,1994,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,1995,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,1996,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,1997,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,1998,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,1999,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2000,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2001,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2002,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2003,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2004,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2005,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2006,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2007,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2008,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2009,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2010,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2011,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2012,0,0,<NA>,<NA>,0.98
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2013,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2014,0,0,<NA>,<NA>,0.97
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2015,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2016,0,0,<NA>,<NA>,0.97
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2017,0,0,<NA>,<NA>,0.98
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2018,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2019,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2020,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2021,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2022,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2023,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2024,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2025,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2026,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2027,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2028,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2029,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2030,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2031,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2032,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2033,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2034,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2035,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2036,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2037,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2038,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2039,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2040,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2041,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2042,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2043,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2044,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2045,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2046,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2047,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2048,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2049,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2050,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2051,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2052,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2053,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2054,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2055,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2056,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2057,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2058,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2059,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2060,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2061,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2062,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2063,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2064,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2065,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2066,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2067,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2068,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2069,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2070,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2071,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2072,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2073,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2074,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2075,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2076,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2077,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2078,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2079,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2080,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2081,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2082,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2083,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2084,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2085,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2086,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2087,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2088,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2089,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2090,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2091,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2092,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2093,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2094,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2095,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2096,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2097,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2098,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2099,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,CHN,China,2100,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,1980,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,1981,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,1982,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,1983,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,1984,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,1985,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,1986,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,1987,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,1988,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,1989,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,1990,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,1991,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,1992,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,1993,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,1994,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,1995,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,1996,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,1997,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,1998,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,1999,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2000,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2001,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2002,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2003,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2004,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2005,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2006,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2007,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2008,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2009,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2010,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2011,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2012,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2013,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2014,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2015,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2016,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2017,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2018,0,0,<NA>,<NA>,0.127456790043578
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2019,0,0,<NA>,<NA>,0.128383634258009
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2020,0,0,<NA>,<NA>,0.129241605928844
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2021,0,0,<NA>,<NA>,0.130020676798918
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2022,0,0,<NA>,<NA>,0.94
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2023,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2024,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2025,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2026,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2027,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2028,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2029,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2030,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2031,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2032,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2033,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2034,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2035,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2036,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2037,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2038,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2039,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2040,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2041,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2042,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2043,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2044,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2045,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2046,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2047,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2048,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2049,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2050,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2051,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2052,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2053,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2054,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2055,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2056,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2057,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2058,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2059,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2060,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2061,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2062,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2063,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2064,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2065,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2066,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2067,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2068,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2069,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2070,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2071,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2072,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2073,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2074,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2075,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2076,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2077,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2078,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2079,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2080,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2081,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2082,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2083,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2084,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2085,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2086,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2087,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2088,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2089,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2090,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2091,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2092,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2093,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2094,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2095,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2096,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2097,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2098,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2099,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IDN,Indonesia,2100,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,1980,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,1981,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,1982,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,1983,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,1984,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,1985,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,1986,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,1987,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,1988,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,1989,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,1990,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,1991,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,1992,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,1993,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,1994,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,1995,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,1996,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,1997,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,1998,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,1999,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2000,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2001,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2002,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2003,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2004,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2005,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2006,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2007,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2008,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2009,0,0,<NA>,<NA>,0.09
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2010,0,0,<NA>,<NA>,0.07
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2011,0,0,<NA>,<NA>,0.14
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2012,0,0,<NA>,<NA>,0.09
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2013,0,0,<NA>,<NA>,0.17
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2014,0,0,<NA>,<NA>,0.19
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2015,0,0,<NA>,<NA>,0.24
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2016,0,0,<NA>,<NA>,0.22
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2017,0,0,<NA>,<NA>,0.267034038089347
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2018,0,0,<NA>,<NA>,0.283460081732998
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2019,0,0,<NA>,<NA>,0.300081211774915
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2020,0,0,<NA>,<NA>,0.316994697313049
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2021,0,0,<NA>,<NA>,0.334231562656385
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2022,0,0,<NA>,<NA>,0.351726557680551
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2023,0,0,<NA>,<NA>,0.369430264150918
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2024,0,0,<NA>,<NA>,0.387372130979536
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2025,0,0,<NA>,<NA>,0.405603733111425
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2026,0,0,<NA>,<NA>,0.424193074334718
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2027,0,0,<NA>,<NA>,0.443205812482634
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2028,0,0,<NA>,<NA>,0.46269811970047
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2029,0,0,<NA>,<NA>,0.482714411967221
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2030,0,0,<NA>,<NA>,0.503305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2031,0,0,<NA>,<NA>,0.513305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2032,0,0,<NA>,<NA>,0.523305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2033,0,0,<NA>,<NA>,0.533305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2034,0,0,<NA>,<NA>,0.543305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2035,0,0,<NA>,<NA>,0.553305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2036,0,0,<NA>,<NA>,0.563305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2037,0,0,<NA>,<NA>,0.573305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2038,0,0,<NA>,<NA>,0.583305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2039,0,0,<NA>,<NA>,0.593305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2040,0,0,<NA>,<NA>,0.603305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2041,0,0,<NA>,<NA>,0.613305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2042,0,0,<NA>,<NA>,0.623305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2043,0,0,<NA>,<NA>,0.633305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2044,0,0,<NA>,<NA>,0.643305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2045,0,0,<NA>,<NA>,0.653305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2046,0,0,<NA>,<NA>,0.663305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2047,0,0,<NA>,<NA>,0.673305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2048,0,0,<NA>,<NA>,0.683305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2049,0,0,<NA>,<NA>,0.693305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2050,0,0,<NA>,<NA>,0.703305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2051,0,0,<NA>,<NA>,0.713305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2052,0,0,<NA>,<NA>,0.723305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2053,0,0,<NA>,<NA>,0.733305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2054,0,0,<NA>,<NA>,0.743305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2055,0,0,<NA>,<NA>,0.753305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2056,0,0,<NA>,<NA>,0.763305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2057,0,0,<NA>,<NA>,0.773305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2058,0,0,<NA>,<NA>,0.783305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2059,0,0,<NA>,<NA>,0.793305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2060,0,0,<NA>,<NA>,0.803305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2061,0,0,<NA>,<NA>,0.813305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2062,0,0,<NA>,<NA>,0.823305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2063,0,0,<NA>,<NA>,0.833305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2064,0,0,<NA>,<NA>,0.843305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2065,0,0,<NA>,<NA>,0.853305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2066,0,0,<NA>,<NA>,0.863305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2067,0,0,<NA>,<NA>,0.873305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2068,0,0,<NA>,<NA>,0.883305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2069,0,0,<NA>,<NA>,0.893305995981521
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2070,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2071,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2072,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2073,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2074,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2075,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2076,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2077,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2078,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2079,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2080,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2081,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2082,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2083,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2084,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2085,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2086,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2087,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2088,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2089,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2090,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2091,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2092,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2093,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2094,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2095,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2096,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2097,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2098,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2099,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,IND,India,2100,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,1980,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,1981,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,1982,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,1983,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,1984,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,1985,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,1986,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,1987,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,1988,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,1989,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,1990,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,1991,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,1992,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,1993,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,1994,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,1995,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,1996,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,1997,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,1998,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,1999,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2000,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2001,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2002,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2003,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2004,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2005,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2006,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2007,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2008,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2009,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2010,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2011,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2012,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2013,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2014,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2015,0,0,<NA>,<NA>,0.43
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2016,0,0,<NA>,<NA>,0.75
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2017,0,0,<NA>,<NA>,0.86
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2018,0,0,<NA>,<NA>,0.86
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2019,0,0,<NA>,<NA>,0.86
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2020,0,0,<NA>,<NA>,0.86
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2021,0,0,<NA>,<NA>,0.86
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2022,0,0,<NA>,<NA>,0.86
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2023,0,0,<NA>,<NA>,0.86
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2024,0,0,<NA>,<NA>,0.86
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2025,0,0,<NA>,<NA>,0.86
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2026,0,0,<NA>,<NA>,0.86
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2027,0,0,<NA>,<NA>,0.86
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2028,0,0,<NA>,<NA>,0.86
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2029,0,0,<NA>,<NA>,0.86
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2030,0,0,<NA>,<NA>,0.86
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2031,0,0,<NA>,<NA>,0.87
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2032,0,0,<NA>,<NA>,0.88
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2033,0,0,<NA>,<NA>,0.89
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2034,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2035,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2036,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2037,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2038,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2039,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2040,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2041,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2042,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2043,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2044,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2045,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2046,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2047,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2048,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2049,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2050,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2051,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2052,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2053,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2054,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2055,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2056,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2057,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2058,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2059,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2060,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2061,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2062,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2063,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2064,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2065,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2066,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2067,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2068,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2069,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2070,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2071,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2072,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2073,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2074,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2075,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2076,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2077,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2078,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2079,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2080,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2081,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2082,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2083,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2084,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2085,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2086,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2087,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2088,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2089,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2090,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2091,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2092,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2093,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2094,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2095,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2096,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2097,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2098,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2099,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,KHM,Cambodia,2100,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,1980,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,1981,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,1982,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,1983,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,1984,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,1985,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,1986,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,1987,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,1988,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,1989,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,1990,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,1991,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,1992,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,1993,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,1994,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,1995,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,1996,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,1997,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,1998,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,1999,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2000,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2001,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2002,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2003,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2004,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2005,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2006,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2007,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2008,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2009,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2010,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2011,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2012,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2013,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2014,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2015,0,0,<NA>,<NA>,0.2
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2016,0,0,<NA>,<NA>,0.44
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2017,0,0,<NA>,<NA>,0.856666666666667
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2018,0,0,<NA>,<NA>,0.856666666666667
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2019,0,0,<NA>,<NA>,0.856666666666667
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2020,0,0,<NA>,<NA>,0.856666666666667
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2021,0,0,<NA>,<NA>,0.856666666666667
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2022,0,0,<NA>,<NA>,0.856666666666667
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2023,0,0,<NA>,<NA>,0.856666666666667
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2024,0,0,<NA>,<NA>,0.856666666666667
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2025,0,0,<NA>,<NA>,0.856666666666667
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2026,0,0,<NA>,<NA>,0.856666666666667
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2027,0,0,<NA>,<NA>,0.856666666666667
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2028,0,0,<NA>,<NA>,0.856666666666667
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2029,0,0,<NA>,<NA>,0.856666666666667
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2030,0,0,<NA>,<NA>,0.856666666666667
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2031,0,0,<NA>,<NA>,0.866666666666667
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2032,0,0,<NA>,<NA>,0.876666666666667
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2033,0,0,<NA>,<NA>,0.886666666666667
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2034,0,0,<NA>,<NA>,0.896666666666667
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2035,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2036,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2037,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2038,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2039,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2040,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2041,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2042,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2043,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2044,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2045,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2046,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2047,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2048,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2049,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2050,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2051,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2052,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2053,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2054,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2055,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2056,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2057,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2058,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2059,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2060,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2061,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2062,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2063,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2064,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2065,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2066,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2067,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2068,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2069,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2070,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2071,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2072,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2073,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2074,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2075,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2076,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2077,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2078,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2079,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2080,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2081,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2082,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2083,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2084,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2085,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2086,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2087,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2088,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2089,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2090,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2091,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2092,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2093,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2094,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2095,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2096,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2097,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2098,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2099,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LAO,Lao People's Democratic Republic,2100,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,1980,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,1981,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,1982,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,1983,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,1984,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,1985,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,1986,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,1987,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,1988,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,1989,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,1990,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,1991,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,1992,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,1993,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,1994,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,1995,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,1996,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,1997,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,1998,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,1999,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2000,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2001,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2002,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2003,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2004,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2005,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2006,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2007,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2008,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2009,0,0,<NA>,<NA>,0.97
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2010,0,0,<NA>,<NA>,0.97
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2011,0,0,<NA>,<NA>,0.84
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2012,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2013,0,0,<NA>,<NA>,0.98
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2014,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2015,0,0,<NA>,<NA>,0.8
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2016,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2017,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2018,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2019,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2020,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2021,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2022,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2023,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2024,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2025,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2026,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2027,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2028,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2029,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2030,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2031,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2032,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2033,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2034,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2035,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2036,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2037,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2038,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2039,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2040,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2041,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2042,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2043,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2044,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2045,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2046,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2047,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2048,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2049,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2050,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2051,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2052,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2053,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2054,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2055,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2056,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2057,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2058,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2059,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2060,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2061,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2062,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2063,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2064,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2065,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2066,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2067,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2068,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2069,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2070,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2071,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2072,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2073,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2074,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2075,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2076,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2077,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2078,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2079,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2080,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2081,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2082,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2083,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2084,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2085,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2086,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2087,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2088,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2089,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2090,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2091,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2092,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2093,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2094,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2095,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2096,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2097,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2098,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2099,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,LKA,Sri Lanka,2100,0,0,<NA>,<NA>,1
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,1980,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,1981,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,1982,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,1983,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,1984,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,1985,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,1986,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,1987,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,1988,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,1989,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,1990,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,1991,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,1992,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,1993,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,1994,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,1995,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,1996,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,1997,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,1998,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,1999,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2000,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2001,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2002,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2003,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2004,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2005,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2006,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2007,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2008,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2009,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2010,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2011,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2012,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2013,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2014,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2015,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2016,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2017,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2018,0,0,<NA>,<NA>,0.479928829449364
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2019,0,0,<NA>,<NA>,0.705563469368245
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2020,0,0,<NA>,<NA>,0.739893244174046
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2021,0,0,<NA>,<NA>,0.749893244174046
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2022,0,0,<NA>,<NA>,0.759893244174046
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2023,0,0,<NA>,<NA>,0.769893244174046
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2024,0,0,<NA>,<NA>,0.779893244174046
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2025,0,0,<NA>,<NA>,0.789893244174046
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2026,0,0,<NA>,<NA>,0.799893244174046
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2027,0,0,<NA>,<NA>,0.809893244174046
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2028,0,0,<NA>,<NA>,0.819893244174046
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2029,0,0,<NA>,<NA>,0.829893244174046
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2030,0,0,<NA>,<NA>,0.839893244174046
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2031,0,0,<NA>,<NA>,0.849893244174046
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2032,0,0,<NA>,<NA>,0.859893244174046
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2033,0,0,<NA>,<NA>,0.869893244174046
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2034,0,0,<NA>,<NA>,0.879893244174046
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2035,0,0,<NA>,<NA>,0.889893244174046
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2036,0,0,<NA>,<NA>,0.899893244174046
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2037,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2038,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2039,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2040,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2041,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2042,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2043,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2044,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2045,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2046,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2047,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2048,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2049,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2050,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2051,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2052,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2053,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2054,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2055,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2056,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2057,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2058,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2059,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2060,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2061,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2062,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2063,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2064,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2065,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2066,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2067,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2068,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2069,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2070,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2071,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2072,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2073,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2074,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2075,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2076,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2077,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2078,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2079,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2080,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2081,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2082,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2083,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2084,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2085,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2086,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2087,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2088,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2089,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2090,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2091,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2092,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2093,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2094,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2095,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2096,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2097,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2098,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2099,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,MMR,Myanmar,2100,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,1980,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,1981,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,1982,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,1983,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,1984,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,1985,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,1986,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,1987,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,1988,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,1989,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,1990,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,1991,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,1992,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,1993,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,1994,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,1995,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,1996,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,1997,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,1998,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,1999,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2000,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2001,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2002,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2003,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2004,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2005,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2006,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2007,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2008,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2009,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2010,0,0,<NA>,<NA>,0.24
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2011,0,0,<NA>,<NA>,0.31
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2012,0,0,<NA>,<NA>,0.39
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2013,0,0,<NA>,<NA>,0.47
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2014,0,0,<NA>,<NA>,0.43
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2015,0,0,<NA>,<NA>,0.5
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2016,0,0,<NA>,<NA>,0.46
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2017,0,0,<NA>,<NA>,0.47
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2018,0,0,<NA>,<NA>,0.48
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2019,0,0,<NA>,<NA>,0.49
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2020,0,0,<NA>,<NA>,0.5
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2021,0,0,<NA>,<NA>,0.51
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2022,0,0,<NA>,<NA>,0.52
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2023,0,0,<NA>,<NA>,0.53
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2024,0,0,<NA>,<NA>,0.54
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2025,0,0,<NA>,<NA>,0.55
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2026,0,0,<NA>,<NA>,0.56
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2027,0,0,<NA>,<NA>,0.57
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2028,0,0,<NA>,<NA>,0.58
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2029,0,0,<NA>,<NA>,0.59
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2030,0,0,<NA>,<NA>,0.6
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2031,0,0,<NA>,<NA>,0.61
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2032,0,0,<NA>,<NA>,0.62
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2033,0,0,<NA>,<NA>,0.63
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2034,0,0,<NA>,<NA>,0.64
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2035,0,0,<NA>,<NA>,0.65
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2036,0,0,<NA>,<NA>,0.66
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2037,0,0,<NA>,<NA>,0.67
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2038,0,0,<NA>,<NA>,0.68
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2039,0,0,<NA>,<NA>,0.69
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2040,0,0,<NA>,<NA>,0.7
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2041,0,0,<NA>,<NA>,0.71
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2042,0,0,<NA>,<NA>,0.72
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2043,0,0,<NA>,<NA>,0.73
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2044,0,0,<NA>,<NA>,0.74
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2045,0,0,<NA>,<NA>,0.75
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2046,0,0,<NA>,<NA>,0.76
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2047,0,0,<NA>,<NA>,0.77
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2048,0,0,<NA>,<NA>,0.78
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2049,0,0,<NA>,<NA>,0.79
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2050,0,0,<NA>,<NA>,0.8
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2051,0,0,<NA>,<NA>,0.81
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2052,0,0,<NA>,<NA>,0.82
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2053,0,0,<NA>,<NA>,0.83
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2054,0,0,<NA>,<NA>,0.84
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2055,0,0,<NA>,<NA>,0.85
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2056,0,0,<NA>,<NA>,0.86
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2057,0,0,<NA>,<NA>,0.87
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2058,0,0,<NA>,<NA>,0.88
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2059,0,0,<NA>,<NA>,0.89
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2060,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2061,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2062,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2063,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2064,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2065,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2066,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2067,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2068,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2069,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2070,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2071,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2072,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2073,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2074,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2075,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2076,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2077,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2078,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2079,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2080,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2081,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2082,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2083,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2084,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2085,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2086,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2087,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2088,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2089,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2090,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2091,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2092,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2093,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2094,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2095,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2096,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2097,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2098,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2099,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,NPL,Nepal,2100,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,1980,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,1981,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,1982,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,1983,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,1984,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,1985,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,1986,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,1987,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,1988,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,1989,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,1990,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,1991,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,1992,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,1993,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,1994,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,1995,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,1996,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,1997,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,1998,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,1999,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2000,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2001,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2002,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2003,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2004,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2005,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2006,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2007,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2008,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2009,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2010,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2011,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2012,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2013,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2014,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2015,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2016,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2017,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2018,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2019,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2020,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2021,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2022,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2023,0,0,<NA>,<NA>,0.0566809829108379
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2024,0,0,<NA>,<NA>,0.694342040657765
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2025,0,0,<NA>,<NA>,0.850214743662569
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2026,0,0,<NA>,<NA>,0.850214743662569
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2027,0,0,<NA>,<NA>,0.850214743662569
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2028,0,0,<NA>,<NA>,0.850214743662569
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2029,0,0,<NA>,<NA>,0.850214743662569
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2030,0,0,<NA>,<NA>,0.850214743662569
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2031,0,0,<NA>,<NA>,0.860214743662569
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2032,0,0,<NA>,<NA>,0.870214743662569
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2033,0,0,<NA>,<NA>,0.880214743662569
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2034,0,0,<NA>,<NA>,0.890214743662569
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2035,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2036,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2037,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2038,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2039,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2040,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2041,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2042,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2043,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2044,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2045,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2046,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2047,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2048,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2049,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2050,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2051,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2052,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2053,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2054,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2055,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2056,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2057,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2058,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2059,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2060,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2061,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2062,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2063,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2064,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2065,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2066,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2067,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2068,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2069,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2070,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2071,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2072,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2073,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2074,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2075,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2076,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2077,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2078,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2079,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2080,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2081,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2082,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2083,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2084,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2085,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2086,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2087,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2088,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2089,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2090,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2091,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2092,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2093,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2094,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2095,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2096,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2097,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2098,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2099,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PAK,Pakistan,2100,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,1980,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,1981,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,1982,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,1983,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,1984,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,1985,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,1986,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,1987,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,1988,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,1989,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,1990,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,1991,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,1992,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,1993,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,1994,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,1995,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,1996,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,1997,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,1998,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,1999,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2000,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2001,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2002,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2003,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2004,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2005,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2006,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2007,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2008,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2009,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2010,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2011,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2012,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2013,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2014,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2015,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2016,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2017,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2018,0,0,<NA>,<NA>,0.3
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2019,0,0,<NA>,<NA>,0.6
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2020,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2021,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2022,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2023,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2024,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2025,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2026,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2027,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2028,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2029,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2030,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2031,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2032,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2033,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2034,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2035,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2036,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2037,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2038,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2039,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2040,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2041,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2042,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2043,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2044,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2045,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2046,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2047,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2048,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2049,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2050,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2051,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2052,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2053,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2054,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2055,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2056,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2057,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2058,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2059,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2060,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2061,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2062,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2063,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2064,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2065,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2066,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2067,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2068,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2069,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2070,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2071,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2072,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2073,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2074,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2075,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2076,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2077,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2078,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2079,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2080,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2081,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2082,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2083,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2084,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2085,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2086,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2087,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2088,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2089,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2090,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2091,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2092,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2093,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2094,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2095,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2096,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2097,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2098,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2099,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PHL,Philippines,2100,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,1980,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,1981,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,1982,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,1983,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,1984,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,1985,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,1986,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,1987,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,1988,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,1989,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,1990,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,1991,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,1992,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,1993,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,1994,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,1995,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,1996,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,1997,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,1998,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,1999,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2000,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2001,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2002,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2003,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2004,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2005,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2006,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2007,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2008,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2009,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2010,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2011,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2012,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2013,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2014,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2015,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2016,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2017,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2018,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2019,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2020,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2021,0,0,<NA>,<NA>,0.8
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2022,0,0,<NA>,<NA>,0.8
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2023,0,0,<NA>,<NA>,0.8
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2024,0,0,<NA>,<NA>,0.8
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2025,0,0,<NA>,<NA>,0.8
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2026,0,0,<NA>,<NA>,0.8
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2027,0,0,<NA>,<NA>,0.8
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2028,0,0,<NA>,<NA>,0.8
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2029,0,0,<NA>,<NA>,0.8
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2030,0,0,<NA>,<NA>,0.8
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2031,0,0,<NA>,<NA>,0.81
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2032,0,0,<NA>,<NA>,0.82
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2033,0,0,<NA>,<NA>,0.83
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2034,0,0,<NA>,<NA>,0.84
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2035,0,0,<NA>,<NA>,0.85
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2036,0,0,<NA>,<NA>,0.86
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2037,0,0,<NA>,<NA>,0.87
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2038,0,0,<NA>,<NA>,0.88
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2039,0,0,<NA>,<NA>,0.89
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2040,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2041,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2042,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2043,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2044,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2045,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2046,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2047,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2048,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2049,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2050,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2051,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2052,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2053,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2054,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2055,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2056,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2057,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2058,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2059,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2060,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2061,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2062,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2063,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2064,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2065,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2066,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2067,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2068,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2069,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2070,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2071,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2072,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2073,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2074,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2075,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2076,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2077,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2078,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2079,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2080,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2081,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2082,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2083,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2084,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2085,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2086,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2087,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2088,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2089,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2090,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2091,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2092,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2093,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2094,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2095,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2096,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2097,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2098,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2099,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PNG,Papua New Guinea,2100,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",1980,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",1981,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",1982,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",1983,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",1984,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",1985,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",1986,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",1987,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",1988,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",1989,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",1990,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",1991,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",1992,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",1993,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",1994,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",1995,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",1996,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",1997,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",1998,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",1999,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2000,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2001,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2002,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2003,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2004,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2005,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2006,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2007,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2008,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2009,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2010,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2011,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2012,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2013,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2014,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2015,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2016,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2017,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2018,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2019,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2020,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2021,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2022,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2023,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2024,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2025,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2026,0,0,<NA>,<NA>,0.465448232754951
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2027,0,0,<NA>,<NA>,0.914273314340083
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2028,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2029,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2030,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2031,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2032,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2033,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2034,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2035,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2036,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2037,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2038,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2039,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2040,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2041,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2042,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2043,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2044,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2045,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2046,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2047,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2048,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2049,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2050,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2051,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2052,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2053,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2054,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2055,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2056,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2057,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2058,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2059,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2060,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2061,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2062,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2063,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2064,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2065,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2066,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2067,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2068,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2069,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2070,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2071,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2072,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2073,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2074,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2075,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2076,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2077,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2078,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2079,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2080,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2081,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2082,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2083,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2084,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2085,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2086,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2087,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2088,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2089,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2090,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2091,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2092,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2093,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2094,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2095,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2096,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2097,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2098,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2099,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,PRK,"Korea, Democratic People's Republic of",2100,0,0,<NA>,<NA>,0.99
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,1980,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,1981,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,1982,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,1983,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,1984,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,1985,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,1986,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,1987,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,1988,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,1989,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,1990,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,1991,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,1992,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,1993,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,1994,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,1995,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,1996,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,1997,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,1998,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,1999,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2000,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2001,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2002,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2003,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2004,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2005,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2006,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2007,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2008,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2009,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2010,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2011,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2012,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2013,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2014,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2015,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2016,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2017,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2018,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2019,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2020,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2021,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2022,0,0,<NA>,<NA>,0.8
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2023,0,0,<NA>,<NA>,0.8
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2024,0,0,<NA>,<NA>,0.8
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2025,0,0,<NA>,<NA>,0.8
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2026,0,0,<NA>,<NA>,0.8
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2027,0,0,<NA>,<NA>,0.8
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2028,0,0,<NA>,<NA>,0.8
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2029,0,0,<NA>,<NA>,0.8
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2030,0,0,<NA>,<NA>,0.8
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2031,0,0,<NA>,<NA>,0.81
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2032,0,0,<NA>,<NA>,0.82
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2033,0,0,<NA>,<NA>,0.83
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2034,0,0,<NA>,<NA>,0.84
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2035,0,0,<NA>,<NA>,0.85
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2036,0,0,<NA>,<NA>,0.86
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2037,0,0,<NA>,<NA>,0.87
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2038,0,0,<NA>,<NA>,0.88
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2039,0,0,<NA>,<NA>,0.89
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2040,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2041,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2042,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2043,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2044,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2045,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2046,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2047,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2048,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2049,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2050,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2051,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2052,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2053,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2054,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2055,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2056,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2057,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2058,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2059,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2060,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2061,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2062,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2063,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2064,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2065,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2066,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2067,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2068,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2069,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2070,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2071,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2072,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2073,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2074,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2075,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2076,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2077,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2078,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2079,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2080,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2081,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2082,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2083,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2084,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2085,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2086,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2087,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2088,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2089,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2090,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2091,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2092,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2093,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2094,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2095,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2096,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2097,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2098,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2099,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,TLS,Timor-Leste,2100,0,0,<NA>,<NA>,0.9
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,1980,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,1981,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,1982,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,1983,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,1984,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,1985,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,1986,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,1987,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,1988,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,1989,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,1990,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,1991,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,1992,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,1993,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,1994,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,1995,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,1996,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,1997,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,1998,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,1999,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2000,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2001,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2002,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2003,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2004,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2005,0,0,<NA>,<NA>,0
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2006,0,0,<NA>,<NA>,0.65
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2007,0,0,<NA>,<NA>,0.57
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2008,0,0,<NA>,<NA>,0.74
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2009,0,0,<NA>,<NA>,0.67
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2010,0,0,<NA>,<NA>,0.45
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2011,0,0,<NA>,<NA>,0.74
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2012,0,0,<NA>,<NA>,0.75
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2013,0,0,<NA>,<NA>,0.75
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2014,0,0,<NA>,<NA>,0.94
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2015,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2016,0,0,<NA>,<NA>,0.95
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2017,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2018,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2019,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2020,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2021,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2022,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2023,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2024,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2025,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2026,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2027,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2028,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2029,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2030,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2031,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2032,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2033,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2034,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2035,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2036,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2037,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2038,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2039,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2040,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2041,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2042,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2043,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2044,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2045,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2046,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2047,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2048,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2049,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2050,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2051,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2052,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2053,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2054,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2055,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2056,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2057,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2058,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2059,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2060,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2061,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2062,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2063,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2064,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2065,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2066,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2067,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2068,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2069,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2070,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2071,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2072,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2073,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2074,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2075,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2076,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2077,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2078,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2079,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2080,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2081,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2082,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2083,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2084,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2085,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2086,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2087,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2088,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2089,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2090,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2091,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2092,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2093,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2094,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2095,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2096,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2097,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2098,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2099,0,0,<NA>,<NA>,0.96
+je-routine-gavi,"JE: JE, with, routine",JE,total,routine,VNM,Viet Nam,2100,0,0,<NA>,<NA>,0.96
