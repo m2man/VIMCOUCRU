@@ -92,7 +92,7 @@ for (idx_country in 1 : length(countries_vec)){ # Run for each country
     idx_vaccine_row <- grep(country_iso_code, Vaccine.Origin$country_code)
     Vaccine.Country <- Vaccine.Origin[idx_vaccine_row, c(6, 8, 13)] # only take isocode, year, coverage
     
-    ## Take index of row of the country_iso_code in NaivePop
+    ## Take index of row of the country_iso_code in NaivePop --> Use grep function because some regions IND.Low, IND.High is also belong to IND
     idx_country_row <- grep(country_iso_code, NaivePop.Origin$country)
     NaivePop.Country <- NaivePop.Origin[idx_country_row, ]
     
@@ -102,8 +102,10 @@ for (idx_country in 1 : length(countries_vec)){ # Run for each country
     
     ## Running
     if (length(regions) == 1){ # only 1 endemic region in a country
-        Vaccinated_Routine <- create_vaccinated_rountine_df(NaivePop.Country, Vaccine.Country, startyearcolumn) # Find number of vaccinated people, then will be used in the next line of code
-        Susceptible_Routine <- create_susceptible_rountine_df(NaivePop.Country, Vaccinated_Routine, startyearcolumn) # Susceptible people in Routine = Susceptible in Naive - Vaccinated people 
+        # Find number of vaccinated people, then will be used in the next line of code
+        Vaccinated_Routine <- create_vaccinated_rountine_df(NaivePop.Country, Vaccine.Country, startyearcolumn)
+        # Find Susceptible people in Routine = Susceptible in Naive - Vaccinated people
+        Susceptible_Routine <- create_susceptible_rountine_df(NaivePop.Country, Vaccinated_Routine, startyearcolumn)  
     }else{
         # Calculating for each subnational regions --> row bind to the national dataframe
         Vaccinated_Routine_list <- list()

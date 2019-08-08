@@ -59,4 +59,18 @@ Create Susceptible population at each age in csv file in the Routine scenario. R
 - Susceptible population for each country **Routine_Pop_<ISO>.csv** are produced in the subfoler **_Generate/Susceptible_Population/Countries_**. (If you choose the option to save seperately)
 
 **Function**
-- **Create_Routine_Pop**: Create susceptible population in the naive scenario
+- **Create_Routine_Pop**: Create susceptible population in the routine scenario (after the vaccination)
+
+### Step 4: Create Susceptible population for Campaign scenario
+Create Susceptible population at each age in csv file in the Campaign scenario. Campaign scenario means they will conduct Routine vaccination first, then perform a massive vaccination for the remaining susceptible people in the selected age range (normally from age 0 to age 14). The portion of people that will be vaccinated is described in the vaccine coverage file from VIMC. The procedure of this step is to calculate number of vaccinated people in routine scenario firstly. Then find the remaining susceptible population and calculate the vaccinated people in the campaign scenario. Finally we will the total remaining susceptible people, which will equal naive population (susceptible population when there is no vaccination) from Step 2 minus number of vaccinated people found as above. 
+
+**Input**
+- Vaccine coverage given by VIMC is stored in **_Data/Vaccine_Coverage/_** folder.
+- Naive population produced in Step 2 (stored in **_Generate/Susceptible_Population/_** folder).
+
+**Output**
+- **Campaign_Pop.csv** is produced in **_Generate/Susceptible_Population/_** folder.
+- Susceptible population for each country **Campaign_Pop_<ISO>.csv** are produced in the subfoler **_Generate/Susceptible_Population/Countries_**. (If you choose the option to save seperately)
+
+**Function**
+- **Create_Campaign_Pop**: Create susceptible population in the campaign scenario (after the vaccination)
