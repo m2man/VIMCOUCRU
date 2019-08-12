@@ -119,3 +119,18 @@ Basically, this step is optional and quite similar with Step 5. Instead taking t
 
 **Function**
 - **Create_Burden_Stochastic**: Create burden lists for each scenario in Stochastic run.
+
+### Step 8: Fill the burden result in given template
+Fill in the template given by VIMC with burden (cases, deaths, dalys) and cohort size
+
+**Input**
+- **Naive/Routine/Campaign_Burden.Rds**: Burden list found from Step 6 (or Step 7)
+- Burden template, given by VIMC, is stored at **_Data/Burden_Template/_**
+- Population data, given by VIMC, is stored at **_Data/Population/_**
+- Susceptible population in Naive scenario (from Step 2)
+
+**Output**
+- **Template_Naive/Routine/Campaign.csv**: 3 filled csv files will be stored at **_Generate/Template/_**
+
+**Function**
+- **Fill_Template**: Fill the burden and cohort size to the given template (from VIMC)

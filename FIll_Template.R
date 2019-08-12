@@ -126,7 +126,9 @@ for (idx_country in 1 : length(countries_vec)){ # Run for each country in templa
         template.country.naive$cases[idx_row_agegroup_template] <- as.numeric(naive.cases.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
         template.country.naive$deaths[idx_row_agegroup_template] <- as.numeric(naive.deaths.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
         template.country.naive$dalys[idx_row_agegroup_template] <- as.numeric(naive.DALYs.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
+        ## Fill the cohort with the susceptible population in the Naive scenario --> Uncomment the following line (and comment the next 3 line)
         # template.country.naive$cohort_size[idx_row_agegroup_template] <- as.numeric(naive.pop.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
+        ## Fill the cohort with original data from Population data
         template.country.naive$cohort_size[idx_row_agegroup_template] <- as.numeric(Cohort.country[idx_cohort.country, year.idx.min.cohort : year.idx.max.cohort])
         
         template.country.routine$cases[idx_row_agegroup_template] <- as.numeric(routine.cases.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
@@ -145,8 +147,8 @@ for (idx_country in 1 : length(countries_vec)){ # Run for each country in templa
 }
 
 # Save file and export to csv
-write.csv(template.naive, file = paste0(Savepath, 'template_naive.csv'), row.names=FALSE)
-write.csv(template.routine, file = paste0(Savepath, 'template_routine.csv'), row.names=FALSE)
-write.csv(template.campaign, file = paste0(Savepath, 'template_campaign.csv'), row.names=FALSE)
+write.csv(template.naive, file = paste0(Savepath, 'Template_Naive.csv'), row.names=FALSE)
+write.csv(template.routine, file = paste0(Savepath, 'Template_Routine.csv'), row.names=FALSE)
+write.csv(template.campaign, file = paste0(Savepath, 'Template_Campaign.csv'), row.names=FALSE)
 
 cat('===== FINISH [Fill_Template.R] =====\n')
