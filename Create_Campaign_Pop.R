@@ -212,6 +212,7 @@ for (idx_country in 1 : length(countries_vec)){ # Run for each country
 filename <- 'CampaignPop_All.csv'
 write.csv(final.df, file = paste0(Savepath, filename), row.names = FALSE)
 
+cat('===== FINISH [Create_Campaign_Pop.R] =====\n')
 
 # library(ggplot2)
 # sus <- colSums(Susceptible_Campaign[, c(4:ncol(Susceptible_Campaign))])
