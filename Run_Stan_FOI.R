@@ -1,6 +1,8 @@
 # --- NOTE ---
 # This script is used to apply catalytic model and Rstan to fit the age-stratified cases data
 # The result will be the FOI distribution of the countries we have data
+# Note that there are 2 regions that we do not have age-stratified cases data: PAK and IND.Low. 
+# --> Sampled with a log-norm distribution with mean = 0.01 and sd = 1.
 # ---------- #
 
 library(rstan)
@@ -139,5 +141,14 @@ for (idx.specific.region in 1 : length(specific_region_list)){
     posterior <- extract(fit)
     saveRDS(posterior, paste0(Savepath_distribution, 'FOI_Posterior_', specific_region, '.Rds'))
 }
+
+# ==== For 2 regions that we dont have data ====
+# if there is not a Rstan result of lambda then uncomment the following lines, and comment the aboved line
+set.seed(115)
+FOI.Posterior.PAK <- rlnorm(1600, log(0.01), 1) # Pakistan
+saveRDS(FOI.Posterior.PAK, paste0(Savepath_distribution, 'FOI_Posterior_PAK.Rds'))
+set.seed(116)
+FOI.Posterior.IND.Low <- rlnorm(1600, log(0.01), 1) # India.Low
+saveRDS(FOI.Posterior.IND.Low, paste0(Savepath_distribution, 'FOI_Posterior_IND.Low.Rds'))
 
 cat('===== FINISH [Run_Stan_FOI.R] =====\n')
