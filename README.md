@@ -12,14 +12,15 @@ The project is organized as following:
 Need to install the following libraries: rstan, readxl
 
 ## Workflow
-1. Run Rstan to fit the catalytic model to age-stratified cases data
-2. Create Susceptible population for the Naive (No vaccination) scenario
-3. Create Susceptible population for the Routine scenario
-4. Create Susceptible population for the Campaign scenario
-5. Create Burden (Cases, Deaths, DALYs) for each scenario (MeanBurden)
-6. (Optional) Create Burden (Cases, Deaths, DALYs) for each scenario (MeanFOI)
-7. Create Burden STOCHASTIC (Cases, Deaths, DALYs) for each scenario
-8. Fill the Burden result to given template
+1. Run Rstan to fit the catalytic model to age-stratified cases data (Go to [Step 1](#step-1-run-rstan))
+2. Create Susceptible population for the Naive (No vaccination) scenario (Go to [Step 2](#step-2-create-susceptible-population-for-naive-scenario))
+3. Create Susceptible population for the Routine scenario (Go to [Step 3](#step-3-create-susceptible-population-for-routine-scenario))
+4. Create Susceptible population for the Campaign scenario (Go to [Step 4](#step-3-create-susceptible-population-for-campaign-scenario))
+5. Create Burden (Cases, Deaths, DALYs) for each scenario (MeanBurden) (Go to [Step 5](#step-5-create-burden-meanburden))
+6. (Optional) Create Burden (Cases, Deaths, DALYs) for each scenario (MeanFOI) (Go to [Step 6](#step-6-optinal-create-burden-meanfoi))
+7. Create Burden STOCHASTIC (Cases, Deaths, DALYs) for each scenario (Go to [Step 7](#step-7-create-burden-stochastic))
+8. Fill the Burden result to given template (Go to [Step 8](#step-8-fill-the-burden-result-in-given-template))
+9. Fill the Burden STPCHASTIC result to the STOCHASTIC template (Go to [Step 9](#step-9-fill-the-burden-stochastic-result-in-stochastic-template))
 
 ## Core functions
 ### Step 1: Run Rstan
@@ -124,7 +125,7 @@ Basically, this step is optional and quite similar with Step 5. Instead taking t
 Fill in the template given by VIMC with burden (cases, deaths, dalys) and cohort size
 
 **Input**
-- **Naive/Routine/Campaign_Burden.Rds**: Burden list found from Step 6 (or Step 7)
+- **Naive/Routine/Campaign_Burden.Rds**: Burden list found from Step 5 (or Step 6)
 - Burden template, given by VIMC, is stored at **_Data/Burden_Template/_**
 - Population data, given by VIMC, is stored at **_Data/Population/_**
 - Susceptible population in Naive scenario (from Step 2)
@@ -134,3 +135,19 @@ Fill in the template given by VIMC with burden (cases, deaths, dalys) and cohort
 
 **Function**
 - **Fill_Template**: Fill the burden and cohort size to the given template (from VIMC)
+
+### Step 9: Fill the burden stochastic result in stochastic template
+Fill in the stochasti template given by VIMC with burden (cases, deaths, dalys) and cohort size in stochastic run. Basically, this step is almost the same as Step 8. However, in stochastic run, we need to create a CSV file that stores all the parameters for each run id (Such as symptomatic rate, mortality rate for each run id). Besides, we also produce many burden csv files (one for each run id and for each scenario)
+
+**Input**
+- **Naive/Routine/Campaign_Burden_Stochastic.Rds**: Burden list found from Step 7
+- Burden STOCHASTIC template, given by VIMC, is stored at **_Data/Burden_Template/_**
+- Population data, given by VIMC, is stored at **_Data/Population/_**
+- Susceptible population in Naive scenario (from Step 2)
+
+**Output**
+- **Template_Stochastic_Naive/Routine/Campaign_[runid].csv**: series of CSV files will be stored at **_Generate/Template_Stochastic/_** folder.
+- **Template_Stochastic_Parameters.csv**: CSV files that contains value of parameters used to generate burden for each run.
+
+**Function**
+- **Fill_Template_Stochastic**: Fill the burden and cohort size to the given template (from VIMC)
