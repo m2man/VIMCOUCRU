@@ -21,7 +21,7 @@ start_year_column <- 4 # index of column (year) in NaivePop dataframe (start fro
 naive.list <- readRDS('Generate/Burden/Naive_Burden_MeanBurden.Rds') # Burden in Naive scenario
 routine.list <- readRDS('Generate/Burden/Routine_Burden_MeanBurden.Rds') # Burden in Routine scenario
 campaign.list <- readRDS('Generate/Burden/Campaign_Burden_MeanBurden.Rds') # Burden in Campaign scenario
-template.naive <- read.csv('Data/Burden_Template/central-burden-template.201810synthetic-3.JE_OUCRU-Clapham_standard_pinev') # Template to fill in
+template.naive <- read.csv('Data/Burden_Template/central-burden-template.201810synthetic-3.JE_OUCRU-Clapham_standard_pine.csv') # Template to fill in
 template.routine <- template.naive
 template.campaign <- template.naive
 Cohort.Origin <- read.csv('Data/Population/naive_pop_1950_2100.csv') # Population data

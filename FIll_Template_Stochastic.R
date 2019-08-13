@@ -51,7 +51,7 @@ PDis <- runif(1600, 0.3, 0.5)
 
 ## ===== Set up 200 samples for Stochastics ====
 set.seed(911)
-numb_of_file <- 200 # Sample numb_of_file values
+numb_of_file <- 10 # Sample numb_of_file values
 idx_stochastic <- sample(1:1600, numb_of_file) # Sample from 1600 simulations of FOI distribution
 
 ## ===== Load FOI Posterior and store in a list =====

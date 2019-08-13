@@ -145,10 +145,10 @@ for (idx.specific.region in 1 : length(specific_region_list)){
 # ==== For 2 regions that we dont have data ====
 # if there is not a Rstan result of lambda then uncomment the following lines, and comment the aboved line
 set.seed(115)
-FOI.Posterior.PAK <- rlnorm(1600, log(0.01), 1) # Pakistan
+FOI.Posterior.PAK <- rlnorm(total_values, log(0.01), 1) # Pakistan
 saveRDS(FOI.Posterior.PAK, paste0(Savepath_distribution, 'FOI_Posterior_PAK.Rds'))
 set.seed(116)
-FOI.Posterior.IND.Low <- rlnorm(1600, log(0.01), 1) # India.Low
+FOI.Posterior.IND.Low <- rlnorm(total_values, log(0.01), 1) # India.Low
 saveRDS(FOI.Posterior.IND.Low, paste0(Savepath_distribution, 'FOI_Posterior_IND.Low.Rds'))
 
 cat('===== FINISH [Run_Stan_FOI.R] =====\n')

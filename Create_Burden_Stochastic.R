@@ -46,7 +46,7 @@ PDis <- runif(1600, 0.3, 0.5)
 
 ## ===== Set up 200 samples for Stochastics ====
 set.seed(911)
-numb_of_file <- 200 # Sample numb_of_file values
+numb_of_file <- 10 # Sample numb_of_file values
 idx_stochastic <- sample(1:1600, numb_of_file) # Sample from 1600 simulations of FOI distribution
 
 ## ===== Create a list to store the result =====
@@ -110,7 +110,7 @@ for (idx_region in 1 : length(regions_vector)){
     year_RemainLife <- unique(RemainLife.Region$year)
     
     # Run for each year
-    for (idx_year in start_year_column : ncol(Naive.Cases)){
+    for (idx_year in start_year_column : ncol(NaivePop.Region)){
         year_char <- colnames(Naive.Cases)[idx_year]
         cat('~~~~~ Year:', year_char, '~~~~~\n')
         year_num <- as.integer(substr(year_char, 2, nchar(year_char))) # remove 'X' character in colnames: X1950, X1951, ... and convert to numeric
