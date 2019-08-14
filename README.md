@@ -1,11 +1,11 @@
 # VIMCOUCRU INSTRUCTION
 
 ## Summary
-This project is to apply catalytic model to fit age-stratified cases data to estimate the Force of infection (FOI) distribution of Japanese Encephalitis in endemic area (VIMC supported countries). Then using the vaccine coverage data to generate burden as given template. This project is created by R programming language.
+This project is to apply catalytic model to fit age-stratified cases data to estimate the Force of infection (FOI) distribution of Japanese Encephalitis in endemic area (VIMC supported countries). Then using the vaccine coverage data to generate burden as given template. This project is created by R programming language. 
 
 The project is organized as following:
 1. **_Script_**: Entire code files for the project
-2. **_Data_** folder: Contains data that is necessary to run the script
+2. **_Data_** folder: Contains data that is necessary to run the script (**Please contact the author to get the Data folder**)
 3. **_Generate_** folder: Contains the result after running the script
 
 #### SUPPORTING LIBRARY
@@ -131,7 +131,7 @@ Fill in the template given by VIMC with burden (cases, deaths, dalys) and cohort
 - Susceptible population in Naive scenario (from [Step 2](#step-2-create-susceptible-population-for-naive-scenario))
 
 **Output**
-- **Template_Naive/Routine/Campaign.csv**: 3 filled csv files will be stored at **_Generate/Template/_**
+- **Template_Naive/Routine/Campaign.csv**: 3 filled csv files will be stored at **_Generate/Template/[Scenario]/_**
 
 **Function**
 - **Fill_Template**: Fill the burden and cohort size to the given template (from VIMC)
@@ -146,8 +146,13 @@ Fill in the stochasti template given by VIMC with burden (cases, deaths, dalys) 
 - Susceptible population in Naive scenario (from [Step 2](#step-2-create-susceptible-population-for-naive-scenario))
 
 **Output**
-- **Template_Stochastic_Naive/Routine/Campaign_[runid].csv**: series of CSV files will be stored at **_Generate/Template_Stochastic/_** folder.
+- **Template_Stochastic_Naive/Routine/Campaign_[runid].csv**: series of CSV files will be stored at **_Generate/Template_Stochastic/[Scenario]_** folder.
 - **Template_Stochastic_Parameters.csv**: CSV files that contains value of parameters used to generate burden for each run.
 
 **Function**
 - **Fill_Template_Stochastic**: Fill the burden and cohort size to the given template (from VIMC)
+
+## Supporting functions
+This part is optional and not really important.
+- **Change_stochastic_template_name**:Change the result stochastic template name ([Step 9](#step-9-fill-the-burden-stochastic-result-in-stochastic-template)) to match with the rule given by VIMC
+- **Convert_Format_Original_Pop**: Convert format of population data from new format (run 201710gavi-6) to old format (which will be used in entire the project). The examples of 2 new and old format are stored in **_Data/Population_Format/_**. Note that this script might not work well if the newest format is different with the given 201710gavi-6 format.

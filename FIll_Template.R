@@ -12,8 +12,13 @@ script.dir <- paste0(script.dir, '/')
 setwd(script.dir)
 
 ## Create folder to store the result (will show warnings if the folder already exists --> but just warning, no problem)
-dir.create(file.path('Generate/Template/'), showWarnings = TRUE)
-Savepath <- 'Generate/Template/'
+dir.create(file.path('Generate/Template/Naive'), showWarnings = TRUE)
+dir.create(file.path('Generate/Template/Routine'), showWarnings = TRUE)
+dir.create(file.path('Generate/Template/Campaign'), showWarnings = TRUE)
+
+Savepath_Naive <- 'Generate/Template/Naive/'
+Savepath_Routine <- 'Generate/Template/Routine/'
+Savepath_Campaign <- 'Generate/Template/Campaign/'
 
 ## ----- Load file -----
 start_year_column <- 4 # index of column (year) in NaivePop dataframe (start from column 4: X1950, X1951, ...) 
@@ -147,8 +152,8 @@ for (idx_country in 1 : length(countries_vec)){ # Run for each country in templa
 }
 
 # Save file and export to csv
-write.csv(template.naive, file = paste0(Savepath, 'Template_Naive.csv'), row.names=FALSE)
-write.csv(template.routine, file = paste0(Savepath, 'Template_Routine.csv'), row.names=FALSE)
-write.csv(template.campaign, file = paste0(Savepath, 'Template_Campaign.csv'), row.names=FALSE)
+write.csv(template.naive, file = paste0(Savepath_Naive, 'Template_Naive.csv'), row.names=FALSE)
+write.csv(template.routine, file = paste0(Savepath_Routine, 'Template_Routine.csv'), row.names=FALSE)
+write.csv(template.campaign, file = paste0(Savepath_Campaign, 'Template_Campaign.csv'), row.names=FALSE)
 
 cat('===== FINISH [Fill_Template.R] =====\n')

@@ -12,8 +12,14 @@ script.dir <- paste0(script.dir, '/')
 setwd(script.dir)
 
 ## Create folder to store the result (will show warnings if the folder already exists --> but just warning, no problem)
-dir.create(file.path('Generate/Template_Stochastic/'), showWarnings = TRUE)
+dir.create(file.path('Generate/Template_Stochastic/Naive/'), showWarnings = TRUE)
+dir.create(file.path('Generate/Template_Stochastic/Routine/'), showWarnings = TRUE)
+dir.create(file.path('Generate/Template_Stochastic/Campaign/'), showWarnings = TRUE)
+
 Savepath <- 'Generate/Template_Stochastic/'
+Savepath_Naive <- 'Generate/Template_Stochastic/Naive/'
+Savepath_Routine <- 'Generate/Template_Stochastic/Routine/'
+Savepath_Campaign <- 'Generate/Template_Stochastic/Campaign/'
 
 ## ===== Load file =====
 start_year_column <- 4 # index of column (year) in NaivePop dataframe (start from column 4: X1950, X1951, ...) 
@@ -233,9 +239,9 @@ for (idx_run_id in 1 : length(idx_stochastic)){ # for each run id from 1 to 200 
     
     # Save files
     cat('Saving files ... \n')
-    write.csv(template.naive, file = paste0('Template_Stochastic_Naive_', number_id, '.csv'), row.names=FALSE)
-    write.csv(template.routine, file = paste0('Template_Stochastic_Routine_', number_id, '.csv'), row.names=FALSE)
-    write.csv(template.campaign, file = paste0('Template_Stochastic_Campaign_', number_id, '.csv'), row.names=FALSE)
+    write.csv(template.naive, file = paste0(Savepath_Naive, 'Template_Stochastic_Naive_', number_id, '.csv'), row.names=FALSE)
+    write.csv(template.routine, file = paste0(Savepath_Routine, 'Template_Stochastic_Routine_', number_id, '.csv'), row.names=FALSE)
+    write.csv(template.campaign, file = paste0(Savepath_Campaign, 'Template_Stochastic_Campaign_', number_id, '.csv'), row.names=FALSE)
     cat('Saving files [DONE] \n')
     
 }
