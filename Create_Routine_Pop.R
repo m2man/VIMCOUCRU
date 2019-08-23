@@ -1,9 +1,15 @@
 # --- NOTE ---
 # create susceptiable population of all countries after rountine at age 0 (Routine scenario)
 # note: input is NaivePop_All (after running Create_Naive_Pop.R) + vaccine routine --> run for each country
+# Update 23 Aug 2019
+#   + Add option run portion_vaccinated (if this is true --> vaccinated people growing up will be a portion, not the exact number from the last year)
+#   + Formular (with Assumption that vaccinated people will die normally with portion): 
+#       [*] {vaccinated at age [A] in year [Y]} = {population at age [A] in year [Y]} / {population at age [A-1] in year [Y-1]} * {vaccinated at age [A-1] in year [Y-1]}
 # ---------- #
 
 cat('===== START [Create_Routine_Pop.R] =====\n')
+
+portion_vaccinated_run = TRUE # Set True if you want to run the option vaccinated people will be ageing portionally (not the exact number anymore)
 
 ## Get directory of the script (this part only work if source the code, wont work if run directly in the console)
 ## This can be set manually !!! -->setwd('bla bla bla')
@@ -20,11 +26,13 @@ Savepath_countries <- 'Generate/Susceptible_Population/Countries/'
 
 ## ===== Define functions =====
 
-create_vaccinated_rountine_df <- function(NaivePop, Vaccine, startyearcolumn = 4){
+create_vaccinated_rountine_df <- function(NaivePop, Vaccine, startyearcolumn = 4, portion_vaccinated = FALSE){
     # Input
-    #   - NaivePop: Susceptible population in the Naive scenario (result after running Create_Naive_Pop.R)
+    #   - NaivePop: Susceptible population in the Naive scenario (result after running Create_Naive_Pop.R) --> NaivePop is NaivePop for a specific country
+    #       + Note that Naive does not mean Susceptible/unvaccinated people. Naive means original population
     #   - Vaccine: Vaccine coverage information given by VIMC
     #   - startyearcolumn: the column index (of NaivePop dataframe) from which the year starts. 
+    #   - portion_vaccinated: Boolean variable (TRUE/FALSE) --> Set true if you want to run portion vaccinated ageing --> False mean number of vaccinated people will grow up overtime without death
     #   The columns of NaivePop starts with country_code, age_from, age_to, X1950, X1951, ... --> startyearcolumn = 4
     # Output: The vaccinated people dataframe indicating the number of people that were vaccinated
     
@@ -49,10 +57,26 @@ create_vaccinated_rountine_df <- function(NaivePop, Vaccine, startyearcolumn = 4
         currentcolumn <- startcoverage.column + i - startcoverage.vector
         VCPop.Country[1, currentcolumn] <- coverage[i] * NaivePop[1, currentcolumn]
         # Bring the current vaccinated people in this year to the next year with older age (older than 1 year old)
-        # For example: In 2014, 100 people at age 0 were vaccinated --> In 2015, 100 people at age 1 were vaccinated (100 people grew up)
-        # Above example is only true in Routine scenario --> Routine scenario: Only vaccine people at age 0
-        if (currentcolumn > startyearcolumn && currentcolumn <= ncol(VCPop.Country))
-            VCPop.Country[2 : nrow(VCPop.Country), currentcolumn] <- VCPop.Country[1 : (nrow(VCPop.Country) - 1), currentcolumn - 1]
+        if (portion_vaccinated == FALSE){
+            # For example: In 2014, 100 people at age 0 were vaccinated --> In 2015, 100 people at age 1 were vaccinated (100 people grew up)
+            # Above example is only true in Routine scenario --> Routine scenario: Only vaccine people at age 0
+            # VCPop.Country[2 : nrow(VCPop.Country), currentcolumn] is vaccinated people this year (age A)
+            # VCPop.Country[1 : (nrow(VCPop.Country) - 1), currentcolumn - 1] is vaccinated people lastyear (age A - 1)
+            if (currentcolumn > startyearcolumn && currentcolumn <= ncol(VCPop.Country))
+                VCPop.Country[2 : nrow(VCPop.Country), currentcolumn] <- VCPop.Country[1 : (nrow(VCPop.Country) - 1), currentcolumn - 1]    
+        }else{
+            # For example: In 2014, 100 people at age 0 were vaccinated --> In 2015, only a portion of 100 people at age 1 were vaccinated (some of them might be dead)
+            # vaccinated people this year = portion of vaccination last year * population this year (at each age)
+            # portion of vaccination last year = vaccinated people last year / population last year (at each age)
+            if (currentcolumn > startyearcolumn && currentcolumn <= ncol(VCPop.Country)){
+                VCPop.Country.Lastyear <- VCPop.Country[1 : (nrow(VCPop.Country) - 1), currentcolumn - 1]
+                NaivePop.Country.Lastyear <- NaivePop[1 : (nrow(VCPop.Country) - 1), currentcolumn - 1]
+                NaivePop.Country.Thisyear <- NaivePop[2 : nrow(VCPop.Country), currentcolumn]
+                portion_vaccinated_people_alive <- VCPop.Country.Lastyear/NaivePop.Country.Lastyear
+                VCPop.Country[2 : nrow(VCPop.Country), currentcolumn] <- portion_vaccinated_people_alive * NaivePop.Country.Thisyear
+            }
+            
+        }
     }
     return(VCPop.Country)
 }
@@ -103,7 +127,7 @@ for (idx_country in 1 : length(countries_vec)){ # Run for each country
     ## Running
     if (length(regions) == 1){ # only 1 endemic region in a country
         # Find number of vaccinated people, then will be used in the next line of code
-        Vaccinated_Routine <- create_vaccinated_rountine_df(NaivePop.Country, Vaccine.Country, startyearcolumn)
+        Vaccinated_Routine <- create_vaccinated_rountine_df(NaivePop.Country, Vaccine.Country, startyearcolumn, portion_vaccinated = portion_vaccinated_run)
         # Find Susceptible people in Routine = Susceptible in Naive - Vaccinated people
         Susceptible_Routine <- create_susceptible_rountine_df(NaivePop.Country, Vaccinated_Routine, startyearcolumn)  
     }else{
@@ -114,7 +138,7 @@ for (idx_country in 1 : length(countries_vec)){ # Run for each country
             cat('===== Processing', subregion, '=====\n')
             idx.subregion <- which(NaivePop.Country$country == subregion)
             NaivePop.Subregion <- NaivePop.Country[idx.subregion, ]
-            Vaccinated_Routine <- create_vaccinated_rountine_df(NaivePop.Subregion, Vaccine.Country, startyearcolumn)
+            Vaccinated_Routine <- create_vaccinated_rountine_df(NaivePop.Subregion, Vaccine.Country, startyearcolumn, portion_vaccinated = portion_vaccinated_run)
             Vaccinated_Routine_list[[i]] <- Vaccinated_Routine
         }
         Vaccinated_Routine <- do.call('rbind', Vaccinated_Routine_list) # combine into 1 country
