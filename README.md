@@ -7,9 +7,10 @@ The project is organized as following:
 1. **_Script_**: Entire code files for the project
 2. **_Data_** folder: Contains data that is necessary to run the script (**Please contact the author to get the Data folder**)
 3. **_Generate_** folder: Contains the result after running the script
+4. **_Shiny_** folder: A Shiny application which can visualize and compare the generated burden csv file from [Step 8](#step-8-fill-the-burden-result-in-given-template). This application requires an user to upload 2 burden templates, then it will plot the burden values of 2 templates and show the difference between them.
 
 #### SUPPORTING LIBRARY
-Need to install the following libraries: rstan, readxl
+Need to install the following libraries: rstan, readxl, shiny, ggplot2, gridExtra (the last 3 libraries are used in Shiny application)
 
 ## Workflow
 1. Run Rstan to fit the catalytic model to age-stratified cases data ([Go to Step 1](#step-1-run-rstan))

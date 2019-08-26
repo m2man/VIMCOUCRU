@@ -4,14 +4,14 @@
 # make new csv
 # note: input is naivepop country + vaccine campaign
 # Update 23 Aug 2019
-#   + Add option run portion_vaccinated (if this is true --> vaccinated people growing up will be a portion, not the exact number from the last year)
+#   + Add option run portion_vaccinated (if this is true --> vaccinated people growing up will be a portion, not the exact number from the last year (FALSE option))
 #   + Formular (with Assumption that vaccinated people will die normally with portion): 
 #       [*] {vaccinated at age [A] in year [Y]} = {population at age [A] in year [Y]} / {population at age [A-1] in year [Y-1]} * {vaccinated at age [A-1] in year [Y-1]}
 # ---------- #
 
 cat('===== START [Create_Campaign_Pop.R] =====\n')
 
-portion_vaccinated_run = TRUE # Set True if you want to run the option vaccinated people will be ageing portionally (not the exact number anymore)
+portion_vaccinated_run = TRUE # Set True if you want to run the option vaccinated people will be ageing portionally (not the exact number anymore (FALSE option))
 
 ## Get directory of the script (this part only work if source the code, wont work if run directly in the console)
 ## This can be set manually !!! --> setwd('bla bla bla')

@@ -44,6 +44,12 @@ PSym <- runif(1600, 1/500, 1/250)
 PMor <- runif(1600, 0.1, 0.3) 
 PDis <- runif(1600, 0.3, 0.5)
 
+## ===== Set up burden weights parameters =====
+acute_weight <-  0.133 # acute encephalitis (given VIMC)
+chronic_weight <- 0.542 # severe motor plus cognitive impairments due to encephalitis (given by VIMC)
+symptom_time <- 2.5 # 2.5 weeks
+foi_time <- 52 # FOI by year = 52 weeks
+
 ## ===== Create a list to store the result =====
 # Each scenario has a list. In each list, there will be 4 other lists for immuned, cases, deaths, and dalys
 # Naive
@@ -145,22 +151,22 @@ for (idx_region in 1 : length(regions_vector)){
             naive.immuned.temp <- (1 - exp(-1*FOI.Posterior)) * exp(-1*FOI.Posterior*age.naive) * pop.age.naive
             naive.cases.temp <-naive.immuned.temp * PSym 
             naive.deaths.temp <- naive.cases.temp * PMor
-            naive.DALYs.temp <- naive.deaths.temp*remainlife + naive.cases.temp*0.133*2.5/52 + 
-                (naive.cases.temp - naive.deaths.temp)*PDis*0.542*remainlife
+            naive.DALYs.temp <- naive.deaths.temp*remainlife + naive.cases.temp*acute_weight*symptom_time/foi_time + 
+                (naive.cases.temp - naive.deaths.temp)*PDis*chronic_weight*remainlife
             
             # Calculate burden (cases, deaths, dalys) for routine scenario
             routine.immuned.temp <- (1 - exp(-1*FOI.Posterior)) * exp(-1*FOI.Posterior*age.naive) * pop.age.routine
             routine.cases.temp <- routine.immuned.temp * PSym
             routine.deaths.temp <- routine.cases.temp * PMor
-            routine.DALYs.temp <- routine.deaths.temp*remainlife + routine.cases.temp*0.133*2.5/52 + 
-                (routine.cases.temp - routine.deaths.temp)*PDis*0.542*remainlife
+            routine.DALYs.temp <- routine.deaths.temp*remainlife + routine.cases.temp*acute_weight*symptom_time/foi_time + 
+                (routine.cases.temp - routine.deaths.temp)*PDis*chronic_weight*remainlife
             
             # Calculate burden (cases, deaths, dalys) for campaign scenario
             campaign.immuned.temp <- (1 - exp(-1*FOI.Posterior)) * exp(-1*FOI.Posterior*age.naive) * pop.age.campaign
             campaign.cases.temp <- campaign.immuned.temp * PSym
             campaign.deaths.temp <- campaign.cases.temp * PMor
-            campaign.DALYs.temp <- campaign.deaths.temp*remainlife + campaign.cases.temp*0.133*2.5/52 + 
-                (campaign.cases.temp - campaign.deaths.temp)*PDis*0.542*remainlife
+            campaign.DALYs.temp <- campaign.deaths.temp*remainlife + campaign.cases.temp*acute_weight*symptom_time/foi_time + 
+                (campaign.cases.temp - campaign.deaths.temp)*PDis*chronic_weight*remainlife
             
             # Take the mean of all simulation values (mean of 1600 values) at each age and each year
             # Naive

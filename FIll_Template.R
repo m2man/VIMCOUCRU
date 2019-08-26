@@ -6,6 +6,10 @@
 
 cat('===== START [Fill_Template.R] =====\n')
 
+# If set to TRUE --> take the exact cohort data from VIMC (true cohort)
+# If set to FALSE --> Cohort = Susceptible + Vaccinate + Immuned
+original_cohort <- FALSE 
+
 ## Get directory of the script (this part only work if source the code, wont work if run directly in the console)
 ## This can be set manually !!! -->setwd('bla bla bla')
 script.dir <- dirname(sys.frame(1)$ofile)
@@ -13,6 +17,7 @@ script.dir <- paste0(script.dir, '/')
 setwd(script.dir)
 
 ## Create folder to store the result (will show warnings if the folder already exists --> but just warning, no problem)
+dir.create(file.path('Generate/Template/'), showWarnings = TRUE)
 dir.create(file.path('Generate/Template/Naive'), showWarnings = TRUE)
 dir.create(file.path('Generate/Template/Routine'), showWarnings = TRUE)
 dir.create(file.path('Generate/Template/Campaign'), showWarnings = TRUE)
@@ -170,28 +175,29 @@ for (idx_country in 1 : length(countries_vec)){ # Run for each country in templa
         template.country.naive$cases[idx_row_agegroup_template] <- as.numeric(naive.cases.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
         template.country.naive$deaths[idx_row_agegroup_template] <- as.numeric(naive.deaths.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
         template.country.naive$dalys[idx_row_agegroup_template] <- as.numeric(naive.DALYs.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
-        ## Fill the cohort with the Susceptible + Vaccinated + Immuned = Naive + Immuned --> Uncomment the following line (and comment the next 3 line)
-        template.country.naive$cohort_size[idx_row_agegroup_template] <- as.numeric(naive.pop.country[idx_row_agegroup_list, year.idx.min : year.idx.max]) + as.numeric(naive.immuned.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
-        ## Fill the cohort with original data from Population data --> Uncomment the following line and comment the above line
-        # template.country.naive$cohort_size[idx_row_agegroup_template] <- as.numeric(Cohort.country[idx_cohort.country, year.idx.min.cohort : year.idx.max.cohort])
         
         # Routine
         template.country.routine$cases[idx_row_agegroup_template] <- as.numeric(routine.cases.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
         template.country.routine$deaths[idx_row_agegroup_template] <- as.numeric(routine.deaths.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
         template.country.routine$dalys[idx_row_agegroup_template] <- as.numeric(routine.DALYs.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
-        ## Fill the cohort with the Susceptible + Vaccinated + Immuned = Naive + Immuned --> Uncomment the following line (and comment the next 3 line)
-        template.country.routine$cohort_size[idx_row_agegroup_template] <- as.numeric(naive.pop.country[idx_row_agegroup_list, year.idx.min : year.idx.max]) + as.numeric(routine.immuned.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
-        ## Fill the cohort with original data from Population data --> Uncomment the following line and comment the above line
-        # template.country.routine$cohort_size[idx_row_agegroup_template] <- as.numeric(Cohort.country[idx_cohort.country, year.idx.min.cohort : year.idx.max.cohort])
         
         # Campaign
         template.country.campaign$cases[idx_row_agegroup_template] <- as.numeric(campaign.cases.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
         template.country.campaign$deaths[idx_row_agegroup_template] <- as.numeric(campaign.deaths.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
         template.country.campaign$dalys[idx_row_agegroup_template] <- as.numeric(campaign.DALYs.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
-        ## Fill the cohort with the Susceptible + Vaccinated + Immuned = Naive + Immuned --> Uncomment the following line (and comment the next 3 line)
-        template.country.campaign$cohort_size[idx_row_agegroup_template] <- as.numeric(naive.pop.country[idx_row_agegroup_list, year.idx.min : year.idx.max]) + as.numeric(campaign.immuned.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
-        ## Fill the cohort with original data from Population data --> Uncomment the following line and comment the above line
-        # template.country.campaign$cohort_size[idx_row_agegroup_template] <- as.numeric(Cohort.country[idx_cohort.country, year.idx.min.cohort : year.idx.max.cohort])
+
+        # Fill in Cohort size
+        if (original_cohort == TRUE){
+            # Take the original cohort data from VIMC (true cohort)
+            template.country.naive$cohort_size[idx_row_agegroup_template] <- as.numeric(Cohort.country[idx_cohort.country, year.idx.min.cohort : year.idx.max.cohort])
+            template.country.routine$cohort_size[idx_row_agegroup_template] <- as.numeric(Cohort.country[idx_cohort.country, year.idx.min.cohort : year.idx.max.cohort])
+            template.country.campaign$cohort_size[idx_row_agegroup_template] <- as.numeric(Cohort.country[idx_cohort.country, year.idx.min.cohort : year.idx.max.cohort])
+        }else{
+            # Fill the cohort with the Susceptible + Vaccinated + Immuned = Naive + Immuned
+            template.country.naive$cohort_size[idx_row_agegroup_template] <- as.numeric(naive.pop.country[idx_row_agegroup_list, year.idx.min : year.idx.max]) + as.numeric(naive.immuned.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
+            template.country.routine$cohort_size[idx_row_agegroup_template] <- as.numeric(naive.pop.country[idx_row_agegroup_list, year.idx.min : year.idx.max]) + as.numeric(routine.immuned.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
+            template.country.campaign$cohort_size[idx_row_agegroup_template] <- as.numeric(naive.pop.country[idx_row_agegroup_list, year.idx.min : year.idx.max]) + as.numeric(campaign.immuned.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
+        }
     }
     template.naive[idx_row_template, ] <- template.country.naive
     template.routine[idx_row_template, ] <- template.country.routine
