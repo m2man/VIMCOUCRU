@@ -52,20 +52,26 @@ Create Susceptible population at each age in csv file in the Naive (no vaccinati
 - **Create_Naive_Pop**: Create susceptible population in the naive scenario
 
 ### Step 3: Create Susceptible population for Routine scenario
-Create Susceptible population at each age in csv file in the Routine scenario. Routine scenario means only people at age 0 will receive vaccination. The portion of people that will be vaccinated is described in the vaccine coverage file from VIMC. The procedure of this step is to calculate number of vaccinated people in routine scenario firstly. Then find the remaining susceptible population. This will equal naive population (susceptible population when there is no vaccination) from [Step 2](#step-2-create-susceptible-population-for-naive-scenario) minus number of vaccinated people in routine scenario. 
+**Update 24 Aug 2019**: Now you can choose the option **_portion_vaccinated_run_** run. If this is set to TRUE, the vaccinated people will portionally grow up (only some vaccinated people last year will be still alive in the next year). If this is set to FALSE, all vaccinated people in the last year will survive in the next year (no death)
+
+Create Susceptible population at each age in csv file in the Routine scenario. Routine scenario means only people at age 0 will receive vaccination. The portion of people that will be vaccinated is described in the vaccine coverage file from VIMC. The procedure of this step is to calculate number of vaccinated people in routine scenario firstly. Then find the remaining susceptible population. This will equal naive population (susceptible population when there is no vaccination) from [Step 2](#step-2-create-susceptible-population-for-naive-scenario) minus number of vaccinated people in routine scenario.
 
 **Input**
 - Vaccine coverage given by VIMC is stored in **_Data/Vaccine_Coverage/_** folder.
 - Naive population produced in [Step 2](#step-2-create-susceptible-population-for-naive-scenario) (stored in **_Generate/Susceptible_Population/_** folder).
 
 **Output**
-- **RoutinePop.csv** is produced in **_Generate/Susceptible_Population/_** folder.
+- **RoutinePop.csv**, indicating susceptible population, is produced in **_Generate/Susceptible_Population/_** folder.
+- **RoutineVac.csv**, indicating vaccinated population, is produced in **_Generate/Vaccinated_Population/_** folder.
 - Susceptible population for each country **RoutinePop_[ISO].csv** are produced in the subfoler **_Generate/Susceptible_Population/Countries_**. (If you choose the option to save seperately)
+- Vaccinated population for each country **RoutineVac_[ISO].csv** are produced in the subfoler **_Generate/Vaccinated_Population/Countries_**. (If you choose the option to save seperately)
 
 **Function**
 - **Create_Routine_Pop**: Create susceptible population in the routine scenario (after the vaccination)
 
 ### Step 4: Create Susceptible population for Campaign scenario
+**Update 24 Aug 2019**: Now you can choose the option **_portion_vaccinated_run_** run. If this is set to TRUE, the vaccinated people will portionally grow up (only some vaccinated people last year will be still alive in the next year). If this is set to FALSE, all vaccinated people in the last year will survive in the next year (no death)
+
 Create Susceptible population at each age in csv file in the Campaign scenario. Campaign scenario means they will conduct Routine vaccination first, then perform a massive vaccination for the remaining susceptible people in the selected age range (normally from age 0 to age 14). The portion of people that will be vaccinated is described in the vaccine coverage file from VIMC. The procedure of this step is to calculate number of vaccinated people in routine scenario firstly. Then find the remaining susceptible population and calculate the vaccinated people in the campaign scenario. Finally we will the total remaining susceptible people, which will equal naive population (susceptible population when there is no vaccination) from [Step 2](#step-2-create-susceptible-population-for-naive-scenario) minus number of vaccinated people found as above. 
 
 **Input**
@@ -73,14 +79,18 @@ Create Susceptible population at each age in csv file in the Campaign scenario. 
 - Naive population produced in [Step 2](#step-2-create-susceptible-population-for-naive-scenario) (stored in **_Generate/Susceptible_Population/_** folder).
 
 **Output**
-- **CampaignPop.csv** is produced in **_Generate/Susceptible_Population/_** folder.
+- **CampaignPop.csv**, indicating susceptible population, is produced in **_Generate/Susceptible_Population/_** folder.
+- **CampaignVac.csv**, indicating vaccinated population, is produced in **_Generate/Vaccinated_Population/_** folder.
 - Susceptible population for each country **CampaignPop_[ISO].csv** are produced in the subfoler **_Generate/Susceptible_Population/Countries_** folder. (If you choose the option to save seperately)
+- Vaccinated population for each country **CampaignVac_[ISO].csv** are produced in the subfoler **_Generate/Vaccinated_Population/Countries_** folder. (If you choose the option to save seperately)
 
 **Function**
 - **Create_Campaign_Pop**: Create susceptible population in the campaign scenario (after the vaccination)
 
 ### Step 5: Create Burden (MeanBurden)
-This step will calculate Cases, Deaths, and DALYs for each scenario of vaccination. We will use the FOI distribution from Step 1, the susceptible population for each scenario from [Step 2](#step-2-create-susceptible-population-for-naive-scenario), [Step 3](#step-3-create-susceptible-population-for-routine-scenario), [Step 4](#step-4-create-susceptible-population-for-campaign-scenario). Besides, we also need the information of Life Expactation, which is provided by VIMC. Because the FOI distribution includes many values due to the simulation from Rstan, here we calculate burden based on each value, then take the mean all of them to have the final burden.
+**Update 26 Aug 2019**: We now also calculated the immuned population (asymptomatic and symptomatic cases). Cases = Immuned * Symptomatic Rate
+
+This step will calculate Cases, Deaths, and DALYs for each scenario of vaccination. We will use the FOI distribution from Step 1, the susceptible population for each scenario from [Step 2](#step-2-create-susceptible-population-for-naive-scenario), [Step 3](#step-3-create-susceptible-population-for-routine-scenario), [Step 4](#step-4-create-susceptible-population-for-campaign-scenario). Besides, we also need the information of Life Expactation, which is provided by VIMC. Because the FOI distribution includes many values due to the simulation from Rstan, here we calculate burden based on each value, then take the mean all of them to have the final burden. 
 
 **Input**
 - **NaivePop.csv**, **RoutinePop.csv**, **CampaignPop.csv**: Susceptible population for each vaccination scenario from [Step 2](#step-2-create-susceptible-population-for-naive-scenario), [Step 3](#step-3-create-susceptible-population-for-routine-scenario), [Step 4](#step-4-create-susceptible-population-for-campaign-scenario).
@@ -94,7 +104,9 @@ This step will calculate Cases, Deaths, and DALYs for each scenario of vaccinati
 - **Create_Burden_MeanBurden**: Create burden lists for each scenario. Each list describes one scenario and it includes 3 sub-lists for cases, deaths, and dalys
 
 ### Step 6: (Optinal) Create Burden (MeanFOI)
-Basically, this step is optional and quite similar with [Step 5](#step-5-create-burden-meanburden). Instead calculating burden for each of all FOI values, here we take the mean of FOI distribution firstly, then calculate burden based on that average FOI value. 
+**Update 26 Aug 2019**: We now also calculated the immuned population (asymptomatic and symptomatic cases). Cases = Immuned * Symptomatic Rate
+
+Basically, this step is optional and quite similar with [Step 5](#step-5-create-burden-meanburden). Instead calculating burden for each of all FOI values, here we take the mean of FOI distribution firstly, then calculate burden based on that average FOI value.
 
 **Input**
 - **NaivePop.csv**, **RoutinePop.csv**, **CampaignPop.csv**: Susceptible population for each vaccination scenario from [Step 2](#step-2-create-susceptible-population-for-naive-scenario), [Step 3](#step-3-create-susceptible-population-for-routine-scenario), [Step 4](#step-4-create-susceptible-population-for-campaign-scenario).
@@ -122,7 +134,9 @@ Basically, this step is optional and quite similar with [Step 5](#step-5-create-
 - **Create_Burden_Stochastic**: Create burden lists for each scenario in Stochastic run.
 
 ### Step 8: Fill the burden result in given template
-Fill in the template given by VIMC with burden (cases, deaths, dalys) and cohort size
+**Update 26 Aug 2019**: Cohort size now will be equal to Susceptible + Vaccinated + Immuned = NaivePop + Immuned. The last 'equal sign' is because Naive = Susceptible + Vaccinated
+
+Fill in the template given by VIMC with burden (cases, deaths, dalys) and cohort size.
 
 **Input**
 - **Naive/Routine/Campaign_Burden.Rds**: Burden list found from [Step 5](#step-5-create-burden-meanburden) (or [Step 6](#step-6-optinal-create-burden-meanfoi))

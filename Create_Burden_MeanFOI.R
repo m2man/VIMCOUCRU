@@ -5,6 +5,7 @@
 # (result after running Rstan_FOI and Population result(3 scenario: Naive, Routine, Campaign))
 # Result will be a list of 3 list (cases, deaths, and DALYs for each scenario)
 # Each list of cases or deaths is another lists for each country with a dataframe of 100 agegroup x several years
+# - Update 26 Aug 2019: Add calculation of Number of Immuned People (without symptomatic rate) = cases / PSym
 # ---------- #
 
 cat('===== START [Create_Burden_MeanFOI.R] =====\n')
@@ -45,18 +46,25 @@ PMor <- runif(1600, 0.1, 0.3)
 PDis <- runif(1600, 0.3, 0.5)
 
 ## ===== Create a list to store the result =====
-# Each scenario has a list. In each list, there will be 3 other lists for cases, deaths, and dalys
+# Each scenario has a list. In each list, there will be 4 other lists for immuned, cases, deaths, and dalys
+# Naive
 naive.list <- list()
-naive.list[['cases']] <- list()
+naive.list[['immuned']] <- list() # asymtomatic cases
+naive.list[['cases']] <- list() # cases = immnued * symptomatic rate
 naive.list[['deaths']] <- list()
 naive.list[['DALYs']] <- list()
 
+# Routine
 routine.list <- list()
+routine.list[['immuned']] <- list()
 routine.list[['cases']] <- list()
 routine.list[['deaths']] <- list()
 routine.list[['DALYs']] <- list()
 
+
+# Campaign
 campaign.list <- list()
+campaign.list[['immuned']] <- list()
 campaign.list[['cases']] <- list()
 campaign.list[['deaths']] <- list()
 campaign.list[['DALYs']] <- list()
@@ -91,13 +99,21 @@ for (idx_region in 1 : length(regions_vector)){
     }
     
     # Initialize the lists
+    # Naive
     Naive.Cases <- NaivePop.Region
+    Naive.Immuned <- Naive.Cases
     Naive.Deaths <- Naive.Cases
     Naive.DALYs <- Naive.Cases
+    
+    # Routine
     Routine.Cases <- Naive.Cases
+    Routine.Immuned <- Naive.Cases
     Routine.Deaths <- Naive.Cases
     Routine.DALYs <- Naive.Cases
+    
+    # Campaign
     Campaign.Cases <- Naive.Cases
+    Campaign.Immuned <- Naive.Cases
     Campaign.Deaths <- Naive.Cases
     Campaign.DALYs <- Naive.Cases
     
@@ -128,44 +144,63 @@ for (idx_region in 1 : length(regions_vector)){
             pop.age.campaign <- CampaignPop.Region[[idx_year]][idx.age]
             
             # Calculate burden (cases, deaths, dalys) for naive scenario
-            naive.cases.temp <- (1 - exp(-1*FOI.Posterior)) * exp(-1*FOI.Posterior*age.naive) * PSym * pop.age.naive
+            naive.immuned.temp <- (1 - exp(-1*FOI.Posterior)) * exp(-1*FOI.Posterior*age.naive) * pop.age.naive 
+            naive.cases.temp <- naive.immuned.temp * PSym
             naive.deaths.temp <- naive.cases.temp * PMor
             naive.DALYs.temp <- naive.deaths.temp*remainlife + naive.cases.temp*0.133*2.5/52 + 
                 (naive.cases.temp - naive.deaths.temp)*PDis*0.542*remainlife
             
             # Calculate burden (cases, deaths, dalys) for routine scenario
-            routine.cases.temp <- (1 - exp(-1*FOI.Posterior)) * exp(-1*FOI.Posterior*age.naive) * PSym * pop.age.routine
+            routine.immuned.temp <- (1 - exp(-1*FOI.Posterior)) * exp(-1*FOI.Posterior*age.naive) * pop.age.routine
+            routine.cases.temp <- routine.immuned.temp * PSym
             routine.deaths.temp <- routine.cases.temp * PMor
             routine.DALYs.temp <- routine.deaths.temp*remainlife + routine.cases.temp*0.133*2.5/52 + 
                 (routine.cases.temp - routine.deaths.temp)*PDis*0.542*remainlife
             
             # Calculate burden (cases, deaths, dalys) for campaign scenario
-            campaign.cases.temp <- (1 - exp(-1*FOI.Posterior)) * exp(-1*FOI.Posterior*age.naive) * PSym * pop.age.campaign
+            campaign.immuned.temp <- (1 - exp(-1*FOI.Posterior)) * exp(-1*FOI.Posterior*age.naive) * pop.age.campaign
+            campaign.cases.temp <- campaign.immuned.temp * PSym
             campaign.deaths.temp <- campaign.cases.temp * PMor
             campaign.DALYs.temp <- campaign.deaths.temp*remainlife + campaign.cases.temp*0.133*2.5/52 + 
                 (campaign.cases.temp - campaign.deaths.temp)*PDis*0.542*remainlife
             
             # Assign the value at each age and each year
+            # Naive
             Naive.Cases[[idx_year]][idx.age] <- naive.cases.temp
+            Naive.Immuned[[idx_year]][idx.age] <- naive.immuned.temp
             Naive.Deaths[[idx_year]][idx.age] <- naive.deaths.temp
             Naive.DALYs[[idx_year]][idx.age] <- naive.DALYs.temp
+            
+            # Routine
             Routine.Cases[[idx_year]][idx.age] <- routine.cases.temp
+            Routine.Immuned[[idx_year]][idx.age] <- routine.immuned.temp
             Routine.Deaths[[idx_year]][idx.age] <- routine.deaths.temp
             Routine.DALYs[[idx_year]][idx.age] <- routine.DALYs.temp
+            
+            # Campaign
             Campaign.Cases[[idx_year]][idx.age] <- campaign.cases.temp
+            Campaign.Immuned[[idx_year]][idx.age] <- campaign.immuned.temp
             Campaign.Deaths[[idx_year]][idx.age] <- campaign.deaths.temp
             Campaign.DALYs[[idx_year]][idx.age] <- campaign.DALYs.temp
         }
     }
     
     # Assign to the list
+    # Naive
     naive.list[['cases']][[region_name]] <- Naive.Cases
+    naive.list[['immuned']][[region_name]] <- Naive.Immuned
     naive.list[['deaths']][[region_name]] <- Naive.Deaths
     naive.list[['DALYs']][[region_name]] <- Naive.DALYs
+    
+    # Routine
     routine.list[['cases']][[region_name]] <- Routine.Cases
+    routine.list[['immuned']][[region_name]] <- Routine.Immuned
     routine.list[['deaths']][[region_name]] <- Routine.Deaths
     routine.list[['DALYs']][[region_name]] <- Routine.DALYs
+    
+    # Campaign
     campaign.list[['cases']][[region_name]] <- Campaign.Cases
+    campaign.list[['immuned']][[region_name]] <- Campaign.Immuned
     campaign.list[['deaths']][[region_name]] <- Campaign.Deaths
     campaign.list[['DALYs']][[region_name]] <- Campaign.DALYs
 }

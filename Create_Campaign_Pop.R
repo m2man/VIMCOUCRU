@@ -22,9 +22,16 @@ setwd(script.dir)
 ## Create folder to store the result (will show warnings if the folder already exists --> but just warning, no problem)
 dir.create(file.path('Generate/Susceptible_Population/'), showWarnings = TRUE)
 Savepath <- 'Generate/Susceptible_Population/'
+
+dir.create(file.path('Generate/Vaccinated_Population/'), showWarnings = TRUE)
+Savepath_vac <- 'Generate/Vaccinated_Population/'
+
 ## Create folder in the case you want to save the population data for each country seperately
 dir.create(file.path('Generate/Susceptible_Population/Countries/'), showWarnings = TRUE)
 Savepath_countries <- 'Generate/Susceptible_Population/Countries/'
+
+dir.create(file.path('Generate/Vaccinated_Population/Countries/'), showWarnings = TRUE)
+Savepath_countries_vac <- 'Generate/Vaccinated_Population/Countries/'
 
 ## ===== Define functions =====
 
@@ -65,6 +72,13 @@ update_vaccinated_per_year <- function(vaccinated_last_year, naive_this_year, na
         # Find the probability of each age group that can live until next year
         # prob = {population at age [A] in year [Y]} / {population at age [A-1] in year [Y-1]}
         portion_of_ageing = naive_this_year[2:length(naive_this_year)] / naive_last_year[1:(length(naive_last_year)-1)]
+        # Check infinity problem: naivepop last year is 0, naivepop this year is non-zeros (sound impossible but it appear in the naive population data)
+        # In this case non-zero/0 = Inf --> we assign portion = 1 
+        portion_of_ageing[which(is.infinite(portion_of_ageing))] <- 1
+        # Check NAN problem: naivepop last year is 0, naivepop this year is also 0 (make sense, 0 people 98 year old last year, this year also 0 people at age 99)
+        # In this case 0/0 = NAN --> we assign portion = 0 
+        portion_of_ageing[which(is.na(portion_of_ageing))] <- 0
+        # Multiply and got the ageging vaccinated people
         vaccinated_last_year_old <- vaccinated_last_year[1 : (length(vaccinated_last_year) - 1)] * portion_of_ageing
     }
      
@@ -110,11 +124,11 @@ create_vaccinated_campaign_df <- function(NaivePop, Vaccine.campaign, Vaccine.ro
         cat('Processing year', listyear.Naive[i], '\n')
         currentcolumn <- i + startyearcolumn - 1 # Start from startyearcolumn
         naivepop.column <- NaivePop[[currentcolumn]]
-        naivepop.column.lastyear <- NaivePop[[currentcolumn - 1]]
-        
         if(currentcolumn == startyearcolumn){
+            naivepop.column.lastyear <- naivepop.column # Since this is the first column --> no data for 'last year' --> use the same pop
             vaccinated.last.year <- rep(0, length(naivepop.column)) # We dont have information for the year before given by VIMC --> Assume no people has been vaccinated
         }else{
+            naivepop.column.lastyear <- NaivePop[[currentcolumn - 1]]
             vaccinated.last.year <- VCPop.Country[[currentcolumn - 1]] # Extract vaccinated people last year
         }
         VCPop.Country[[currentcolumn]] <- update_vaccinated_per_year(
@@ -220,19 +234,26 @@ for (idx_country in 1 : length(countries_vec)){ # Run for each country
     }
     
     if (Distinct_Files){
-        filename <- paste0('CampaignPop_', country_iso_code, '.csv')
-        write.csv(Susceptible_Campaign, file = paste0(Savepath_countries, filename), row.names = FALSE)
+        filename_sus <- paste0('CampaignPop_', country_iso_code, '.csv')
+        write.csv(Susceptible_Campaign, file = paste0(Savepath_countries, filename_sus), row.names = FALSE)
+        filename_vac <- paste0('CampaignVac_', country_iso_code, '.csv')
+        write.csv(Vaccinated_Campaign, file = paste0(Savepath_countries_vac, filename_vac), row.names = FALSE)
     }
     
     if (idx_country == 1){
-        final.df <- Susceptible_Campaign  
+        final.df.sus <- Susceptible_Campaign
+        final.df.vac <- Vaccinated_Campaign
     }else{
-        final.df <- rbind(final.df, Susceptible_Campaign)
+        final.df.sus <- rbind(final.df.sus, Susceptible_Campaign)
+        final.df.vac <- rbind(final.df.vac, Vaccinated_Campaign)
     }
 }
 
-filename <- 'CampaignPop_All.csv'
-write.csv(final.df, file = paste0(Savepath, filename), row.names = FALSE)
+filename_sus <- 'CampaignPop_All.csv'
+write.csv(final.df.sus, file = paste0(Savepath, filename_sus), row.names = FALSE)
+
+filename_vac <- 'CampaignVac_All.csv'
+write.csv(final.df.vac, file = paste0(Savepath_vac, filename_vac), row.names = FALSE)
 
 cat('===== FINISH [Create_Campaign_Pop.R] =====\n')
 

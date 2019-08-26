@@ -20,9 +20,16 @@ setwd(script.dir)
 ## Create folder to store the result (will show warnings if the folder already exists --> but just warning, no problem)
 dir.create(file.path('Generate/Susceptible_Population/'), showWarnings = TRUE)
 Savepath <- 'Generate/Susceptible_Population/'
+
+dir.create(file.path('Generate/Vaccinated_Population/'), showWarnings = TRUE)
+Savepath_vac <- 'Generate/Vaccinated_Population/'
+
 ## Create folder in the case you want to save the population data for each country seperately
 dir.create(file.path('Generate/Susceptible_Population/Countries/'), showWarnings = TRUE)
 Savepath_countries <- 'Generate/Susceptible_Population/Countries/'
+
+dir.create(file.path('Generate/Vaccinated_Population/Countries/'), showWarnings = TRUE)
+Savepath_countries_vac <- 'Generate/Vaccinated_Population/Countries/'
 
 ## ===== Define functions =====
 
@@ -73,6 +80,13 @@ create_vaccinated_rountine_df <- function(NaivePop, Vaccine, startyearcolumn = 4
                 NaivePop.Country.Lastyear <- NaivePop[1 : (nrow(VCPop.Country) - 1), currentcolumn - 1]
                 NaivePop.Country.Thisyear <- NaivePop[2 : nrow(VCPop.Country), currentcolumn]
                 portion_vaccinated_people_alive <- VCPop.Country.Lastyear/NaivePop.Country.Lastyear
+                # Check infinity problem: naivepop last year is 0, naivepop this year is non-zeros (sound impossible but it appear in the naive population data)
+                # In this case non-zero/0 = Inf --> we assign portion = 1 
+                portion_vaccinated_people_alive[which(is.infinite(portion_vaccinated_people_alive))] <- 1
+                # Check NAN problem: naivepop last year is 0, naivepop this year is also 0 (make sense, 0 people 98 year old last year, this year also 0 people at age 99)
+                # In this case 0/0 = NAN --> we assign portion = 0 
+                portion_vaccinated_people_alive[which(is.na(portion_vaccinated_people_alive))] <- 0
+                # Multiply and got the ageging vaccinated people
                 VCPop.Country[2 : nrow(VCPop.Country), currentcolumn] <- portion_vaccinated_people_alive * NaivePop.Country.Thisyear
             }
             
@@ -146,18 +160,24 @@ for (idx_country in 1 : length(countries_vec)){ # Run for each country
     }
     
     if (Distinct_Files){
-        filename <- paste0('RoutinePop_', country_iso_code, '.csv') # name the file will be saved
-        write.csv(Susceptible_Routine, file = paste0(Savepath, filename), row.names = FALSE)
+        filename_sus <- paste0('RoutinePop_', country_iso_code, '.csv') # name the file will be saved
+        filename_vac <- paste0('RoutineVac_', country_iso_code, '.csv') # name the file will be saved
+        write.csv(Susceptible_Routine, file = paste0(Savepath_countries, filename_sus), row.names = FALSE)
+        write.csv(Vaccinated_Routine, file = paste0(Savepath_countries_vac, filename_vac), row.names = FALSE)
     }
     
     if (idx_country == 1){
-        final.df <- Susceptible_Routine    
+        final.df.sus <- Susceptible_Routine
+        final.df.vac <- Vaccinated_Routine
     }else{
-        final.df <- rbind(final.df, Susceptible_Routine) # row bind all countries into 1 final file
+        final.df.sus <- rbind(final.df.sus, Susceptible_Routine) # row bind all countries into 1 final file
+        final.df.vac <- rbind(final.df.vac, Vaccinated_Routine) # row bind all countries into 1 final file
     }
 }
 
-filename <- 'RoutinePop_All.csv' # name the file will be saved
-write.csv(final.df, file = paste0(Savepath, filename), row.names = FALSE)
+filename_sus <- 'RoutinePop_All.csv' # name the file will be saved
+filename_vac <- 'RoutineVac_All.csv' # name the file will be saved
+write.csv(final.df.sus, file = paste0(Savepath, filename_sus), row.names = FALSE)
+write.csv(final.df.vac, file = paste0(Savepath_vac, filename_vac), row.names = FALSE)
 
 cat('===== FINISH [Create_Routine_Pop.R] =====\n')
