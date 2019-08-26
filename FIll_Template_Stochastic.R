@@ -1,6 +1,7 @@
 # --- NOTE ---
 # This file is used to fill in the form of central burden
-# input is the result after running Create_Burden
+# input is the result after running Create_Burden_Stochastic
+# - Update 26 Aug 2019: Add new cohort calculation = Susceptible + Vaccinated + Immuned = NaivePop + Immuned
 # ---------- #
 
 cat('===== START [Fill_Template_Stochastic.R] =====\n')
@@ -27,27 +28,12 @@ start_year_column <- 4 # index of column (year) in NaivePop dataframe (start fro
 naive.list <- readRDS('Generate/Burden_Stochastic/Naive_Burden_Stochastic.Rds') # Burden in Naive scenario
 routine.list <- readRDS('Generate/Burden_Stochastic/Routine_Burden_Stochastic.Rds') # Burden in Routine scenario
 campaign.list <- readRDS('Generate/Burden_Stochastic/Campaign_Burden_Stochastic.Rds') # Burden in Campaign scenario
-template.naive <- read.csv('Data/Burden_Template/stochastic-burden-template.201710gavi-6.JE_OUCRU-Clapham_standard.csv') # Template to fill in
+template.naive.origin <- read.csv('Data/Burden_Template/stochastic-burden-template.201710gavi-6.JE_OUCRU-Clapham_standard.csv') # Template to fill in
 Cohort.Origin <- read.csv('Data/Population/naive_pop_1950_2100.csv') # Population data
 NaivePop.Origin <- read.csv('Generate/Susceptible_Population/NaivePop_All.csv') # Susceptible Pop in Naive scenario
 colnames(NaivePop.Origin) <- c('country', colnames(NaivePop.Origin)[-1])
 
 Folder.FOI <- 'Generate/FOI_Distribution/' # Folder containing FOI distribution result
-
-# Read template paras in stochastic run
-# template.paras <- read.csv('Data/Burden_Template/stochastic_template_params.csv') <-- look at the file to know the format, then create the dataframe by yourself
-colname_string <- c('run_id', '<symptomatic_rate>', '<deaths_rate>', '<disability_rate>', '<lambda>:<BGD>',
-                    '<lambda>:<BTN>', '<lambda>:<KHM>', '<lambda>:<CHN>', '<lambda_1>:<IND>', '<lambda_2>:<IND>',
-                    '<lambda_3>:<IND>', '<lambda_1>:<IDN>', '<lambda_2>:<IDN>', '<lambda>:<PRK>', '<lambda>:<LAO>',
-                    '<lambda>:<MMR>', '<lambda>:<NPL>', '<lambda>:<PAK>', '<lambda>:<PNG>', '<lambda>:<PHL>',
-                    '<lambda>:<LKA>', '<lambda>:<TLS>', '<lambda>:<VNM>')
-template.paras <- data.frame(matrix(ncol = length(colname_string), nrow = 0))
-colnames(template.paras) <- colname_string
-
-# paras.col.countries has the same order with colnames(template.paras)
-paras.col.countries <- c('BGD', 'BTN', 'KHM', 'CHN', 'IND.Low', 'IND.Medium', 'IND.High', 
-                         'IDN.Low', 'IDN.High', 'PRK', 'LAO', 'MMR', 'NPL', 'PAK', 'PNG', 
-                         'PHL', 'LKA', 'TLS', 'VNM')
 
 ## ===== Set up symptomatic, Mortality and Disability rate =====
 set.seed(114) # make sure the sampling is the same all the time we run the file
@@ -59,6 +45,21 @@ PDis <- runif(1600, 0.3, 0.5)
 set.seed(911)
 numb_of_file <- 10 # Sample numb_of_file values
 idx_stochastic <- sample(1:1600, numb_of_file) # Sample from 1600 simulations of FOI distribution
+
+# Read template paras in stochastic run
+# template.paras <- read.csv('Data/Burden_Template/stochastic_template_params.csv') <-- look at the file to know the format, then create the dataframe by yourself
+colname_string <- c('run_id', '<symptomatic_rate>', '<deaths_rate>', '<disability_rate>', '<lambda>:<BGD>',
+                    '<lambda>:<BTN>', '<lambda>:<KHM>', '<lambda>:<CHN>', '<lambda_1>:<IND>', '<lambda_2>:<IND>',
+                    '<lambda_3>:<IND>', '<lambda_1>:<IDN>', '<lambda_2>:<IDN>', '<lambda>:<PRK>', '<lambda>:<LAO>',
+                    '<lambda>:<MMR>', '<lambda>:<NPL>', '<lambda>:<PAK>', '<lambda>:<PNG>', '<lambda>:<PHL>',
+                    '<lambda>:<LKA>', '<lambda>:<TLS>', '<lambda>:<VNM>')
+template.paras <- data.frame(matrix(ncol = length(colname_string), nrow = numb_of_file))
+colnames(template.paras) <- colname_string
+
+# paras.col.countries has the same order with colnames(template.paras)
+paras.col.countries <- c('BGD', 'BTN', 'KHM', 'CHN', 'IND.Low', 'IND.Medium', 'IND.High', 
+                         'IDN.Low', 'IDN.High', 'PRK', 'LAO', 'MMR', 'NPL', 'PAK', 'PNG', 
+                         'PHL', 'LKA', 'TLS', 'VNM')
 
 ## ===== Load FOI Posterior and store in a list =====
 cat('Filling template parameters ...\n')
@@ -80,6 +81,7 @@ for (idx_FOI_list in 1 : length(FOI_list)){
 
 # ===== Filling in parameter templates for each run id =====
 for (idx_row in 1 : numb_of_file){ 
+    template.paras[[1]][idx_row] <- idx_row # run id
     template.paras[[2]][idx_row] <- PSym[idx_stochastic[idx_row]] # symptomatic_rate
     template.paras[[3]][idx_row] <- PMor[idx_stochastic[idx_row]] # deaths_rate
     template.paras[[4]][idx_row] <- PDis[idx_stochastic[idx_row]] # disability_rate
@@ -117,53 +119,89 @@ for (idx_run_id in 1 : length(idx_stochastic)){ # for each run id from 1 to 200 
         # If more than 1 subregions --> Take the sum of all subregions
         # Also take the list of selected run id at selected region (through idx_run_id and idx_region)
         if (length(idx_region) == 1){ ## Entire Country (or only 1 region in the country)
+            naive.pop.country <- NaivePop.Origin[which(NaivePop.Origin$country == regions_vec[idx_region]), ]
+            
+            # Naive
+            naive.immuned.country <- naive.list[['immuned']][[idx_region]][[idx_run_id]]
             naive.cases.country <- naive.list[['cases']][[idx_region]][[idx_run_id]]
             naive.deaths.country <- naive.list[['deaths']][[idx_region]][[idx_run_id]]
             naive.DALYs.country <- naive.list[['DALYs']][[idx_region]][[idx_run_id]]
+            
+            # Routine
+            routine.immuned.country <- routine.list[['immuned']][[idx_region]][[idx_run_id]]
             routine.cases.country <- routine.list[['cases']][[idx_region]][[idx_run_id]]
             routine.deaths.country <- routine.list[['deaths']][[idx_region]][[idx_run_id]]
             routine.DALYs.country <- routine.list[['DALYs']][[idx_region]][[idx_run_id]]
+            
+            # Campaign
+            campaign.immuned.country <- campaign.list[['immuned']][[idx_region]][[idx_run_id]]
             campaign.cases.country <- campaign.list[['cases']][[idx_region]][[idx_run_id]]
             campaign.deaths.country <- campaign.list[['deaths']][[idx_region]][[idx_run_id]]
             campaign.DALYs.country <- campaign.list[['DALYs']][[idx_region]][[idx_run_id]]
-            # naive.pop.country <- NaivePop.Origin[which(NaivePop.Origin$country == regions_vec[idx_region]), ]
         }else{ ## Country has more than 1 subregions --> find cumalative
             for (idx_idx_region in 1 : length(idx_region)){
                 selected_idx_region <- idx_region[idx_idx_region]
                 if (idx_idx_region == 1){ # if the first region --> Assign to variable
+                    naive.pop.country <- NaivePop.Origin[which(NaivePop.Origin$country == regions_vec[selected_idx_region]), ]
+                    
+                    # Naive
+                    naive.immuned.country <- naive.list[['immuned']][[selected_idx_region]][[idx_run_id]]
                     naive.cases.country <- naive.list[['cases']][[selected_idx_region]][[idx_run_id]]
                     naive.deaths.country <- naive.list[['deaths']][[selected_idx_region]][[idx_run_id]]
                     naive.DALYs.country <-  naive.list[['DALYs']][[selected_idx_region]][[idx_run_id]]
+                    
+                    # Routine
+                    routine.immuned.country <- routine.list[['immuned']][[selected_idx_region]][[idx_run_id]]
                     routine.cases.country <- routine.list[['cases']][[selected_idx_region]][[idx_run_id]]
                     routine.deaths.country <- routine.list[['deaths']][[selected_idx_region]][[idx_run_id]]
                     routine.DALYs.country <-  routine.list[['DALYs']][[selected_idx_region]][[idx_run_id]]
+                    
+                    # Campaign
+                    campaign.immuned.country <- campaign.list[['immuned']][[selected_idx_region]][[idx_run_id]]
                     campaign.cases.country <- campaign.list[['cases']][[selected_idx_region]][[idx_run_id]]
                     campaign.deaths.country <- campaign.list[['deaths']][[selected_idx_region]][[idx_run_id]]
                     campaign.DALYs.country <-  campaign.list[['DALYs']][[selected_idx_region]][[idx_run_id]]
-                    # naive.pop.country <- NaivePop.Origin[which(NaivePop.Origin$country == regions_vec[selected_idx_region]), ]
                 }else{ # From the 2nd subregion --> take the sum of the current region and sum of all previous regions
                     end_year_column <- ncol(naive.cases.country)
+                    naive.pop.country[, start_year_column : end_year_column] <- naive.pop.country[, start_year_column : end_year_column] + NaivePop.Origin[which(NaivePop.Origin$country == regions_vec[selected_idx_region]), start_year_column : end_year_column]
+                    
+                    # Naive
+                    naive.immuned.country[, start_year_column : end_year_column] <- naive.immuned.country[, start_year_column : end_year_column] + naive.list[['immuned']][[selected_idx_region]][[idx_run_id]][, start_year_column : end_year_column]
                     naive.cases.country[, start_year_column : end_year_column] <- naive.cases.country[, start_year_column : end_year_column] + naive.list[['cases']][[selected_idx_region]][[idx_run_id]][, start_year_column : end_year_column]
                     naive.deaths.country[, start_year_column : end_year_column] <- naive.deaths.country[, start_year_column : end_year_column] + naive.list[['deaths']][[selected_idx_region]][[idx_run_id]][, start_year_column : end_year_column]
                     naive.DALYs.country[, start_year_column : end_year_column] <- naive.DALYs.country[, start_year_column : end_year_column] + naive.list[['DALYs']][[selected_idx_region]][[idx_run_id]][, start_year_column : end_year_column]
+                    
+                    # Routine
+                    routine.immuned.country[, start_year_column : end_year_column] <- routine.immuned.country[, start_year_column : end_year_column] + routine.list[['immuned']][[selected_idx_region]][[idx_run_id]][, start_year_column : end_year_column]
                     routine.cases.country[, start_year_column : end_year_column] <- routine.cases.country[, start_year_column : end_year_column] + routine.list[['cases']][[selected_idx_region]][[idx_run_id]][, start_year_column : end_year_column]
                     routine.deaths.country[, start_year_column : end_year_column] <- routine.deaths.country[, start_year_column : end_year_column] + routine.list[['deaths']][[selected_idx_region]][[idx_run_id]][, start_year_column : end_year_column]
                     routine.DALYs.country[, start_year_column : end_year_column] <- routine.DALYs.country[, start_year_column : end_year_column] + routine.list[['DALYs']][[selected_idx_region]][[idx_run_id]][, start_year_column : end_year_column]
+                    
+                    # Campaign
+                    campaign.immuned.country[, start_year_column : end_year_column] <- campaign.immuned.country[, start_year_column : end_year_column] + campaign.list[['immuned']][[selected_idx_region]][[idx_run_id]][, start_year_column : end_year_column]
                     campaign.cases.country[, start_year_column : end_year_column] <- campaign.cases.country[, start_year_column : end_year_column] + campaign.list[['cases']][[selected_idx_region]][[idx_run_id]][, start_year_column : end_year_column]
                     campaign.deaths.country[, start_year_column : end_year_column] <- campaign.deaths.country[, start_year_column : end_year_column] + campaign.list[['deaths']][[selected_idx_region]][[idx_run_id]][, start_year_column : end_year_column]
                     campaign.DALYs.country[, start_year_column : end_year_column] <- campaign.DALYs.country[, start_year_column : end_year_column] + campaign.list[['DALYs']][[selected_idx_region]][[idx_run_id]][, start_year_column : end_year_column]
-                    # naive.pop.country[, start_year_column : end_year_column] <- naive.pop.country[, start_year_column : end_year_column] + NaivePop.Origin[which(NaivePop.Origin$country == regions_vec[selected_idx_region]), start_year_column : end_year_column]
                 }
+                
+                # Assign country name
+                naive.pop.country$country <- country_name
+                
+                # Naive
                 naive.cases.country$country <- country_name
                 naive.deaths.country$country <- country_name
                 naive.DALYs.country$country <- country_name
+                
+                # Routine
                 routine.cases.country$country <- country_name
                 routine.deaths.country$country <- country_name
                 routine.DALYs.country$country <- country_name
+                
+                # Campaign
                 campaign.cases.country$country <- country_name
                 campaign.deaths.country$country <- country_name
                 campaign.DALYs.country$country <- country_name
-                # naive.pop.country$country <- country_name
+                
             }
         }
         
@@ -203,23 +241,33 @@ for (idx_run_id in 1 : length(idx_stochastic)){ # for each run id from 1 to 200 
             idx_cohort.country <- which(Cohort.country$age_from == agegroup)
             
             # Fill in the template with burden (cases, deaths, dalys) and cohort size at selected year and selected age group
+            # Naive
+            
             template.country.naive$cases[idx_row_agegroup_template] <- as.numeric(naive.cases.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
             template.country.naive$deaths[idx_row_agegroup_template] <- as.numeric(naive.deaths.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
             template.country.naive$dalys[idx_row_agegroup_template] <- as.numeric(naive.DALYs.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
-            ## Fill the cohort with the susceptible population in the Naive scenario --> Uncomment the following line (and comment the next 3 line)
-            # template.country.naive$cohort_size[idx_row_agegroup_template] <- as.numeric(naive.pop.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
-            ## Fill the cohort with original data from Population data
-            template.country.naive$cohort_size[idx_row_agegroup_template] <- as.numeric(Cohort.country[idx_cohort.country, year.idx.min.cohort : year.idx.max.cohort])
+            ## Fill the cohort with the Susceptible + Vaccinated + Immuned = Naive + Immuned --> Uncomment the following line (and comment the next 3 line)
+            template.country.naive$cohort_size[idx_row_agegroup_template] <- as.numeric(naive.pop.country[idx_row_agegroup_list, year.idx.min : year.idx.max]) + as.numeric(naive.immuned.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
+            ## Fill the cohort with original data from Population data --> Uncomment the following line and comment the above line
+            # template.country.naive$cohort_size[idx_row_agegroup_template] <- as.numeric(Cohort.country[idx_cohort.country, year.idx.min.cohort : year.idx.max.cohort])
             
+            # Routine
             template.country.routine$cases[idx_row_agegroup_template] <- as.numeric(routine.cases.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
             template.country.routine$deaths[idx_row_agegroup_template] <- as.numeric(routine.deaths.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
             template.country.routine$dalys[idx_row_agegroup_template] <- as.numeric(routine.DALYs.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
-            template.country.routine$cohort_size <- template.country.naive$cohort_size
+            ## Fill the cohort with the Susceptible + Vaccinated + Immuned = Naive + Immuned --> Uncomment the following line (and comment the next 3 line)
+            template.country.routine$cohort_size[idx_row_agegroup_template] <- as.numeric(naive.pop.country[idx_row_agegroup_list, year.idx.min : year.idx.max]) + as.numeric(routine.immuned.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
+            ## Fill the cohort with original data from Population data --> Uncomment the following line and comment the above line
+            # template.country.routine$cohort_size[idx_row_agegroup_template] <- as.numeric(Cohort.country[idx_cohort.country, year.idx.min.cohort : year.idx.max.cohort])
             
+            # Campaign
             template.country.campaign$cases[idx_row_agegroup_template] <- as.numeric(campaign.cases.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
             template.country.campaign$deaths[idx_row_agegroup_template] <- as.numeric(campaign.deaths.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
             template.country.campaign$dalys[idx_row_agegroup_template] <- as.numeric(campaign.DALYs.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
-            template.country.campaign$cohort_size <- template.country.naive$cohort_size
+            ## Fill the cohort with the Susceptible + Vaccinated + Immuned = Naive + Immuned --> Uncomment the following line (and comment the next 3 line)
+            template.country.campaign$cohort_size[idx_row_agegroup_template] <- as.numeric(naive.pop.country[idx_row_agegroup_list, year.idx.min : year.idx.max]) + as.numeric(campaign.immuned.country[idx_row_agegroup_list, year.idx.min : year.idx.max])
+            ## Fill the cohort with original data from Population data --> Uncomment the following line and comment the above line
+            # template.country.campaign$cohort_size[idx_row_agegroup_template] <- as.numeric(Cohort.country[idx_cohort.country, year.idx.min.cohort : year.idx.max.cohort])
         }
         template.naive[idx_row_template, ] <- template.country.naive
         template.routine[idx_row_template, ] <- template.country.routine

@@ -1,6 +1,7 @@
 # --- NOTE ---
 # This file is used to fill in the form of central burden
 # input is the result after running Create_Burden
+# - Update 26 Aug 2019: Add new cohort calculation = Susceptible + Vaccinated + Immuned = NaivePop + Immuned
 # ---------- #
 
 cat('===== START [Fill_Template.R] =====\n')
@@ -44,23 +45,31 @@ for (idx_country in 1 : length(countries_vec)){ # Run for each country in templa
     # Check if only 1 region in the country or more than 1 subregions
     # If more than 1 subregions --> Take the sum of all subregions
     if (length(idx_region) == 1){ ## Entire Country
+        naive.pop.country <- NaivePop.Origin[which(NaivePop.Origin$country == regions_vec[idx_region]), ]
+        
+        # Naive
         naive.cases.country <- naive.list[['cases']][[idx_region]]
         naive.immuned.country <- naive.list[['immuned']][[idx_region]]
         naive.deaths.country <- naive.list[['deaths']][[idx_region]]
         naive.DALYs.country <- naive.list[['DALYs']][[idx_region]]
+        
+        # Routine
         routine.cases.country <- routine.list[['cases']][[idx_region]]
         routine.immuned.country <- routine.list[['immuned']][[idx_region]]
         routine.deaths.country <- routine.list[['deaths']][[idx_region]]
         routine.DALYs.country <- routine.list[['DALYs']][[idx_region]]
+        
+        # Campaign
         campaign.cases.country <- campaign.list[['cases']][[idx_region]]
         campaign.immuned.country <- campaign.list[['immuned']][[idx_region]]
         campaign.deaths.country <- campaign.list[['deaths']][[idx_region]]
         campaign.DALYs.country <- campaign.list[['DALYs']][[idx_region]]
-        naive.pop.country <- NaivePop.Origin[which(NaivePop.Origin$country == regions_vec[idx_region]), ]
     }else{ ## Country has more than 1 regions --> find cumalative
         for (idx_idx_region in 1 : length(idx_region)){
             selected_idx_region <- idx_region[idx_idx_region]
             if (idx_idx_region == 1){ # if the first region --> Assign to variable
+                naive.pop.country <- NaivePop.Origin[which(NaivePop.Origin$country == regions_vec[selected_idx_region]), ]
+                
                 # Naive
                 naive.cases.country <- naive.list[['cases']][[selected_idx_region]]
                 naive.immuned.country <- naive.list[['immuned']][[selected_idx_region]]
@@ -78,9 +87,10 @@ for (idx_country in 1 : length(countries_vec)){ # Run for each country in templa
                 campaign.immuned.country <- campaign.list[['immuned']][[selected_idx_region]]
                 campaign.deaths.country <- campaign.list[['deaths']][[selected_idx_region]]
                 campaign.DALYs.country <-  campaign.list[['DALYs']][[selected_idx_region]]
-                naive.pop.country <- NaivePop.Origin[which(NaivePop.Origin$country == regions_vec[selected_idx_region]), ]
             }else{ # From the 2nd subregion --> take the sum of the current region and sum of all previous regions
                 end_year_column <- ncol(naive.cases.country)
+                naive.pop.country[, start_year_column : end_year_column] <- naive.pop.country[, start_year_column : end_year_column] + NaivePop.Origin[which(NaivePop.Origin$country == regions_vec[selected_idx_region]), start_year_column : end_year_column]
+                
                 # Naive
                 naive.cases.country[, start_year_column : end_year_column] <- naive.cases.country[, start_year_column : end_year_column] + naive.list[['cases']][[selected_idx_region]][, start_year_column : end_year_column]
                 naive.immuned.country[, start_year_column : end_year_column] <- naive.immuned.country[, start_year_column : end_year_column] + naive.list[['immuned']][[selected_idx_region]][, start_year_column : end_year_column]
@@ -98,9 +108,10 @@ for (idx_country in 1 : length(countries_vec)){ # Run for each country in templa
                 campaign.immuned.country[, start_year_column : end_year_column] <- campaign.immuned.country[, start_year_column : end_year_column] + campaign.list[['immuned']][[selected_idx_region]][, start_year_column : end_year_column]
                 campaign.deaths.country[, start_year_column : end_year_column] <- campaign.deaths.country[, start_year_column : end_year_column] + campaign.list[['deaths']][[selected_idx_region]][, start_year_column : end_year_column]
                 campaign.DALYs.country[, start_year_column : end_year_column] <- campaign.DALYs.country[, start_year_column : end_year_column] + campaign.list[['DALYs']][[selected_idx_region]][, start_year_column : end_year_column]
-                naive.pop.country[, start_year_column : end_year_column] <- naive.pop.country[, start_year_column : end_year_column] + NaivePop.Origin[which(NaivePop.Origin$country == regions_vec[selected_idx_region]), start_year_column : end_year_column]
             }
+            
             # Assign country name column
+            naive.pop.country$country <- country_name
             
             # Naive
             naive.cases.country$country <- country_name
@@ -119,7 +130,6 @@ for (idx_country in 1 : length(countries_vec)){ # Run for each country in templa
             campaign.immuned.country$country <- country_name
             campaign.deaths.country$country <- country_name
             campaign.DALYs.country$country <- country_name
-            naive.pop.country$country <- country_name
         }
     }
     

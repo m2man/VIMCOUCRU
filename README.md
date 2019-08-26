@@ -120,6 +120,8 @@ Basically, this step is optional and quite similar with [Step 5](#step-5-create-
 - **Create_Burden_MeanFOI**: Create burden lists for each scenario. Each list describes one scenario and it includes 3 sub-lists for cases, deaths, and dalys
 
 ### Step 7: Create Burden Stochastic
+**Update 26 Aug 2019**: We now also calculated the immuned population (asymptomatic and symptomatic cases). Cases = Immuned * Symptomatic Rate
+
 Basically, this step is optional and quite similar with [Step 5](#step-5-create-burden-meanburden). Instead taking the mean of all calculated burden, here we sample some of them (default is to randomly choose 200 from 1600 burden values)
 
 **Input**
@@ -151,6 +153,8 @@ Fill in the template given by VIMC with burden (cases, deaths, dalys) and cohort
 - **Fill_Template**: Fill the burden and cohort size to the given template (from VIMC)
 
 ### Step 9: Fill the burden stochastic result in stochastic template
+**Update 26 Aug 2019**: Cohort size now will be equal to Susceptible + Vaccinated + Immuned = NaivePop + Immuned. The last 'equal sign' is because Naive = Susceptible + Vaccinated
+
 Fill in the stochasti template given by VIMC with burden (cases, deaths, dalys) and cohort size in stochastic run. Basically, this step is almost the same as [Step 8](#step-8-fill-the-burden-result-in-given-template). However, in stochastic run, we need to create a CSV file that stores all the parameters for each run id (Such as symptomatic rate, mortality rate for each run id). Besides, we also produce many burden csv files (one for each run id and for each scenario)
 
 **Input**
