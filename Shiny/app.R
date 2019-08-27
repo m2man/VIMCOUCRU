@@ -8,7 +8,8 @@ library(shiny)
 library(ggplot2)
 library(gridExtra)
 
-options(shiny.maxRequestSize = 20*1024^2)
+max_upload_size <- 20 # Maximum size of upload file (Mb)
+options(shiny.maxRequestSize = max_upload_size*1024^2) 
 
 # ----- UI -----
 ui <- fluidPage(
