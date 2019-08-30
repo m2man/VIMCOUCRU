@@ -79,7 +79,7 @@ create_vaccinated_rountine_df <- function(NaivePop, Vaccine, startyearcolumn = 4
                 VCPop.Country.Lastyear <- VCPop.Country[1 : (nrow(VCPop.Country) - 1), currentcolumn - 1]
                 NaivePop.Country.Lastyear <- NaivePop[1 : (nrow(VCPop.Country) - 1), currentcolumn - 1]
                 NaivePop.Country.Thisyear <- NaivePop[2 : nrow(VCPop.Country), currentcolumn]
-                portion_vaccinated_people_alive <- VCPop.Country.Lastyear/NaivePop.Country.Lastyear
+                portion_vaccinated_people_alive <- NaivePop.Country.Thisyear/NaivePop.Country.Lastyear
                 # Check infinity problem: naivepop last year is 0, naivepop this year is non-zeros (sound impossible but it appear in the naive population data)
                 # In this case non-zero/0 = Inf --> we assign portion = 1 
                 portion_vaccinated_people_alive[which(is.infinite(portion_vaccinated_people_alive))] <- 1
@@ -87,7 +87,7 @@ create_vaccinated_rountine_df <- function(NaivePop, Vaccine, startyearcolumn = 4
                 # In this case 0/0 = NAN --> we assign portion = 0 
                 portion_vaccinated_people_alive[which(is.na(portion_vaccinated_people_alive))] <- 0
                 # Multiply and got the ageging vaccinated people
-                VCPop.Country[2 : nrow(VCPop.Country), currentcolumn] <- portion_vaccinated_people_alive * NaivePop.Country.Thisyear
+                VCPop.Country[2 : nrow(VCPop.Country), currentcolumn] <- portion_vaccinated_people_alive * VCPop.Country.Lastyear
             }
             
         }
